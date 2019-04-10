@@ -1,4 +1,7 @@
-### Teorik ve pratik olarak bilgi içeren makaleler.
+## Teorik ve pratik olarak bilgi içeren makaleler.
 
-#### Düzenleme gerekli.
-Karışıklık olmaması için öncelikle dizin yapısının nasıl olması gerektiği tartışılmalı ve eklenen makelelere, bu dosya üzerinde dizin yapısına uygun şekilde listelenerek linkler verilmelidir.
+- **Android**
+    - [Callback kullanmak suretiyle Android kodumuzda Sepration of Concern Saglama](Android/android-callback.md)
+
+- **JavaScript**
+    - [JavaScript ES6 - Semboller](JavaScript/ES6-Semboller.md)
