@@ -1,6 +1,6 @@
 # Makaleler
 
-Teorik ve pratik öğretiler içeren makaleleri bulabileceğiniz repository. Sizlerde makalelerinizi burada paylaşabilir ve kolektif bir şekilde makalelerinizin gelişmesine ve daha çok insana ve size yardımcı olmasını sağlayabilirsiniz. 
+Teorik ve pratik öğretiler içeren makaleleri bulabileceğiniz repository. Sizler de makalelerinizi burada paylaşabilir ve kolektif bir şekilde makalelerinizin gelişmesine ve daha çok insana ve size yardımcı olmasını sağlayabilirsiniz. 
 
 Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerekenler.md) okumayı lütfen unutmayın.
 
