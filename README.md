@@ -8,6 +8,9 @@ Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerek
 
 - [Callback kullanmak suretiyle Android kodumuzda Separation of Concerns sağlama](android/android-callback-ile-separation-of-concerns/android-callback-ile-separation-of-concerns.md) - @selmansamet
 
+### [**Java**](java)
+- [Argüman aktarmayı anlamak](java/arguman-aktarmayi-anlamak/arguman-aktarmayi-anlamak.md) - @enesusta
+
 ### [**JavaScript**](javascript)
 
 - [JavaScript ES6 - Semboller](javascript/es6-semboller/es6-semboller.md) - @selmansamet
