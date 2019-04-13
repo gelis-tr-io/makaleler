@@ -3,7 +3,7 @@ Bir bilgisayar dilinin bir alt programa argüman aktarmasının **iki** yolu var
 İlk yol **değerle** çağırmadır. (*call by value*)\
 İkinci yol ise **referans ile** çağırmadır. (*call by reference*)
 
-Yazının devamının daha net anlaşılması adına, genel bir fikir sahibi olmamız gereken iki kavram bulunuyor. 
+Yazının devamının daha net anlaşılması adına, genel bir fikir sahibi olmamız gereken üç kavram bulunuyor. 
 
 * Memory Allocation
 * Heap
