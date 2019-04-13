@@ -130,3 +130,7 @@ class Reference {
 
 
 ```
+
+## Özet
+
+Bir nesne referansı bir **metoda** aktarıldığında, referansın kendisi *değerle çağrılma* yoluyla aktarılır. Ancak aktarılan değer bir nesneye gönderme yaptığından bu değerin bir kopyası, aynı argümanın göndermede bulunduğu nesneye göndermede bulunur.
