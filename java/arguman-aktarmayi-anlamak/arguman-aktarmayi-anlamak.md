@@ -113,7 +113,7 @@ class Reference {
         
         int a = 15, b = 20;
 
-        Reference ref = new Reference();
+        Reference ref = new Reference(a,b);
         ref.meth(ref);
         System.out.println(" A is : " + ref.a + " B is : " + ref.b);
         /*
