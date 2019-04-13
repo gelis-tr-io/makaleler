@@ -15,3 +15,9 @@ Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerek
 ### [**PHP**](https://github.com/gelis-tr-io/php-egitim-serisi)
 
 - [Birçok şey öğrendim ama web sitesi oluşturamıyorum kafam çok karışık!](https://github.com/gelis-tr-io/php-egitim-serisi/blob/master/bilgim-var-proje-olustururken-kafam-karisiyor/bilgim-var-proje-olustururken-kafam-karisiyor.md) - @hurata
+
+### **.NET**
+
+- [C#'ta Async ve Await Keywordlarini Anlamak](dotnet/csharp-dilinde-async-await-keywordlarini-anlamak/csharp-dilinde-async-await-keywordlarini-anlamak.md)
+
+
