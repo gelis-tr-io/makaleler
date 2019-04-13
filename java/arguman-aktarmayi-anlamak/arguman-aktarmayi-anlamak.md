@@ -53,3 +53,80 @@ Konuşlandırılmış olan bu nesnelerin işaret ettikleri bir **referansları**
 Bu referansların işaret ettikleri noktada **object** yada diğer adıyla ilgili class'ın bir **instance** ' ı bulunmaktadır.
 
 Referans kavramını pointer gibi düşünebilirsiniz.
+
+
+### Stack
+
+Hızlı bir şekilde açıklamak gerekirse ; Ağzına kadar dolu bir otobüs düşünün. Otobüs içindeki herhangi bir yolcunun durakta inebilmesi için, kapının ağzında bulunan **son yolcunun** aşağı inmesi gerekmektedir.
+
+Runtime (Çalışma zamanı) sırasında pek çok class ve obje sürekli belleğe girer ve çıkar. Aynı otobüsün farklı durakları ziyaret edip, yolcu indirip, yolcu bindirmesi gibi. 
+
+Değişkenler stack'e girer, işlem tamamlandıktan sonrada stack'ten silinirler.
+Dolayısı ile stack üzerinde yapılan herhangi bir işlem kalıcı olamamaktadır. Yazımızda bu yaklaşımı açıklamaya çalışıyor.
+
+### Call By Value
+
+Bu yaklaşım ile argümanın değerini, alt programın tanımlı parametresi(formal parameter) içine kopyalar. Dolayısı ile de alt programın parametresinde yapılan değişiklikler argüman üzerinde etkili olamaz. 
+
+```java
+
+class Value {
+
+    void meth(int a,int b) {
+        a *= 2;
+        b /= 2;
+    }
+
+    static void main(String ... args) {
+        
+        Value value = new Value();
+        int a = 15, b = 20;
+        System.out.println("A is : " + a + " B is : " + b);
+        value.meth(a,b);
+        System.out.println("A is : " + a + " B is : " + b);
+        // degerler ayni kalacaktir.
+
+    }
+}
+
+```
+### Call By Reference
+
+Bu yaklaşım ile parametreye argüman referansı aktarılır. Referans kavramını yukarıda açıklamıştık. Bu durumda parametrede yapılan değişiklikler, alt programı çağırmak için kullanılan argümanı etkiler.
+
+```java
+
+class Reference {
+
+    int a,b;
+    Reference(int a,int b) {
+        this.a = a;
+        this.b = b;
+    }
+
+    void meth(Reference reference) {
+        reference.a *= 2;
+        reference.b /= 2;
+    }
+
+    static void main(String ... args) {
+        
+        int a = 15, b = 20;
+
+        Reference ref = new Reference();
+        ref.meth(ref);
+        System.out.println(" A is : " + ref.a + " B is : " + ref.b);
+        /*
+        Output : 
+            A is 30
+            B is 10
+            olarak cikacaktir.
+        */
+
+    }
+
+
+}
+
+
+```
