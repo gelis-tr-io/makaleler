@@ -15,6 +15,6 @@ Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerek
 
 - [JavaScript ES6 - Semboller](javascript/es6-semboller/es6-semboller.md) - @selmansamet
 
-### [**PHP**](https://github.com/gelis-tr-io/php-egitim-serisi)
+### [**PHP**](php)
 
-- [Birçok şey öğrendim ama web sitesi oluşturamıyorum kafam çok karışık!](https://github.com/gelis-tr-io/php-egitim-serisi/blob/master/bilgim-var-proje-olustururken-kafam-karisiyor/bilgim-var-proje-olustururken-kafam-karisiyor.md) - @hurata
+- [Birçok şey öğrendim ama web sitesi oluşturamıyorum kafam çok karışık!](php/bilgim-var-proje-olustururken-kafam-karisiyor/bilgim-var-proje-olustururken-kafam-karisiyor.md) - @hurata
