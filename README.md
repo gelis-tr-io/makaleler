@@ -6,11 +6,11 @@ Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerek
 
 ### [**Android**](android)
 
-- [Callback kullanmak suretiyle Android kodumuzda Separation of Concerns sağlama](android/android-callback-ile-separation-of-concerns/android-callback-ile-separation-of-concerns.md)
+- [Callback kullanmak suretiyle Android kodumuzda Separation of Concerns sağlama](android/android-callback-ile-separation-of-concerns/android-callback-ile-separation-of-concerns.md) - @selmansamet
 
 ### [**JavaScript**](javascript)
 
-- [JavaScript ES6 - Semboller](javascript/es6-semboller/es6-semboller.md)
+- [JavaScript ES6 - Semboller](javascript/es6-semboller/es6-semboller.md) - @selmansamet
 
 ### [**PHP**](https://github.com/gelis-tr-io/php-egitim-serisi)
 
