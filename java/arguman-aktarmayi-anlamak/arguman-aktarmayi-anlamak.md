@@ -1,4 +1,6 @@
+
 # Java'da Argüman Aktarmayı Anlamak
+
 
 Bir bilgisayar dilinin bir alt programa argüman aktarmasının **iki** yolu vardır.
 
@@ -34,9 +36,11 @@ p = &a;
 
 *Ilgili tablo Sadi Evren Şeker hocamızın sitesinden alınmıştır*
 
+
 **a** adlı integer değişkeninin sakladığı değer 10'dur. Bellekteki adreslemesi A116 adlı noktaya denk gelmektedir.
 
 Programın çalışması sırasında bir başka değişkenin işaret ettiği adres bölgesi A116 olduğu sürece **a** değişkeni içindeki 10' değerine erişebiliriz. Pointer özetle budur.
+
 
 
 
