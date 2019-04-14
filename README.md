@@ -12,6 +12,7 @@ Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerek
 - [Argüman aktarmayı anlamak](java/arguman-aktarmayi-anlamak/arguman-aktarmayi-anlamak.md) - [@enesusta](https://github.com/enesusta)
 - [Deadlock](java/deadlock/deadlock.md) - [@enesusta](https://github.com/enesusta)
 
+
 ### [**JavaScript**](javascript)
 
 - [JavaScript ES6 - Semboller](javascript/es6-semboller/es6-semboller.md) - [@selmansamet](https://github.com/selmansamet)
