@@ -1,6 +1,8 @@
 ### Deadlock
 
-Evvela anlamamız gereken ilk önemli kavram, *Monitör* kavramıdır.
+**Deadlock Türkçe'de çıkmaz demektir ve iki yada daha fazla çalışan yapının birbirlerini sonsuza kadar beklemelerine verilen isimdir.** Basit bir örnek ile açıklamak gerekirse: A ve B isimli iki tane aşçının kısıtlı aletler ile yemek yaptığını düşünelim. Aşçı A sebzeleri bir bıçakla kesiyor, B ise etleri ise tepsiye diziyor. A'nın işine devam edebilmesi için tepsiye ihtiyacı olduğu bir an geldi. Ama tepsi şu an da B aşçısı tarafından kullanılıyor. B aşçısının işini bitirmesi lazım ki, tepsi başkaları tarafından kullanılabilsin. Ama işin ilginç tarafı B'nin işini bitirebilmesi içinde etleri bıçakla kesmesi lazım ki etler yenmeye hazır olsun. Burada şöyle bir sorun var: A işini bitirmeden bıçağı veremiyor ve bitirmesi için ise şu an B tarafından kullanılan tepsiye ihtiyacı var. B de aynı şekilde işini bitirmesi için şu an A tarafından kullanılan bıçağa ihtiyacı var. Benzer şekilde B de işini bitirmeden tepsiyi veremiyor. Bundan dolayı her ikisi de birbirini beklemek zorunda kalıyor ve çıkmaz bir döngüye giriyorlar. İşte buna Deadlock diyoruz.
+
+Bu sorunun kendisini ve çözümünü anlamak için ise evvela anlamamız gereken ilk önemli kavram, *Monitör* kavramıdır.
 
 #### Monitör
 
