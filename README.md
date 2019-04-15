@@ -20,3 +20,7 @@ Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerek
 ### [**PHP**](php)
 
 - [Birçok şey öğrendim ama web sitesi oluşturamıyorum kafam çok karışık!](php/bilgim-var-proje-olustururken-kafam-karisiyor/bilgim-var-proje-olustururken-kafam-karisiyor.md) - [@hurata](https://github.com/hurata)
+
+### [**GIT**](git)
+
+- [git mantığı](git/git-mantigi/README.md) - (geliştiriliyor)
