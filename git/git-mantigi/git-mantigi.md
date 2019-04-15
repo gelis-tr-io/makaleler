@@ -1,5 +1,5 @@
 # git mantığı
-
+git işleyiş (akış) mantığını kavrama rehberi
 
 ## git nedir? 
 
