@@ -23,4 +23,4 @@ Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerek
 
 ### [**GIT**](git)
 
-- [git mantığı](git/git-mantigi/README.md) - (geliştiriliyor)
+- [git mantığı](git/git-mantigi/git-mantigi.md) - (geliştiriliyor)
