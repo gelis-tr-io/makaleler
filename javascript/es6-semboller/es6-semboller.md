@@ -224,7 +224,7 @@ Bir dizinin `concat` işlevine karşı davranışını belirler. Eğer `true` ol
 ```javascript
 var arr = [1, 2, 3];
 arr[Symbol.isConcatSpreadable] = false;
-arr.concat([4, 5, 6]); // [1, 2, 3, [4, 5, 6]];
+arr.concat([4, 5, 6]); // [[1, 2, 3], 4, 5, 6];
 ```
 
 ### Symbol.toPrimitive
