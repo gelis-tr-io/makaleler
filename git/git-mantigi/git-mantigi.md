@@ -1,6 +1,22 @@
 # git mantığı
 git işleyiş (akış) mantığını kavrama rehberi
 
+**içerik listesi**
+- [git nedir?](#git-nedir)
+    - [neleri kolaylaştırır?](#neleri-kolaylatrr)
+    - [nerelerde kullanılır?](#nerelerde-kullanlr)
+    - [nasıl çalışır?](#nasl-alr)
+- [github nedir?](#github-nedir)
+    - [neleri kolaylaştırır?](#neleri-kolaylatrr)
+    - [nerelerde kullanılır?](#nerelerde-kullanlr)
+    - [nasıl çalışır?](#nasl-alr)
+- [github desktop nedir?](#github-desktop-nedir)
+    - [neleri kolaylaştırır?](#neleri-kolaylatrr)
+    - [nerelerde kullanılır?](#nerelerde-kullanlr)
+    - [nasıl çalışır?](#nasl-alr)
+- [ide üzerinde git kullanımı](#ide-zerinde-git-kullanm)
+
+
 ## git nedir? 
 
 git, versiyon konrtol sistemidir.
@@ -12,7 +28,7 @@ git, versiyon konrtol sistemidir.
 - bağımsız geliştirme yapısı ile aynı anda geliştirme yapmaya olanak verir ve böylelikle gelişim sürecinde tasarruf sağlar
 <!-- FIXME daha da basitleştirilebilir -->
 
-### nerelerde kulanılır?
+### nerelerde kullanılır?
 genel olarak yazılım yapıları geliştirmede kullanılsa da kullanım alanı oldukça geniştir.
 
 dijital klasör içinde üretilebilen her şeyin gelişim sürecini takip etme esnekliğine sahiptir. kitap yazılabilir, resim yapılabilir, şarkı bile üretilebilir.
@@ -83,6 +99,9 @@ konsol üzerinde kullanılan git işlemlerini pratik biçimde arayüz üzerinden
 dosya üzerindeki değişiklikleri görüntülemeyi sağlar.
 
 konsola olan bağımlılığı azaltır.
+
+### nerelerde kullanılır
+`çok yakında...`
 
 ### nasıl çalışır?
 `çok yakında...`
