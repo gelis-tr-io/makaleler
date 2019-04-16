@@ -5,21 +5,21 @@ git işleyiş (akış) mantığını kavrama rehberi
 
 git, versiyon konrtol sistemidir.
 
-## neleri kolaylaştırır?
+### neleri kolaylaştırır?
 - proje klasörü üzerinde yapılan değişiklikleri adım adım kaydetmeyi sağlar
 - yapılan değişiklikler arasında hızlıca geçiş yapmayı sağlar
 - bireylerin birbirinden bağımsız ortamlarda geliştirme yapabilmesi esnekliğine sahiptir
 - bağımsız geliştirme yapısı ile aynı anda geliştirme yapmaya olanak verir ve böylelikle gelişim sürecinde tasarruf sağlar
 <!-- FIXME daha da basitleştirilebilir -->
 
-## nerelerde kulanılır?
+### nerelerde kulanılır?
 genel olarak yazılım yapıları geliştirmede kullanılsa da kullanım alanı oldukça geniştir.
 
 dijital klasör içinde üretilebilen her şeyin gelişim sürecini takip etme esnekliğine sahiptir. kitap yazılabilir, resim yapılabilir, şarkı bile üretilebilir.
 
 kısaca birlikte bir ürün geliştirmenin en pratik ve sağlıklı yoludur.
 
-## nasıl çalışır?
+### nasıl çalışır?
 
 git, tanımlaması yapılan klasör içeriside "**.git**" adında bir klasör oluşturur.
 bu klasör içerisinde git kendi dosyalarını barındırır. 
@@ -56,7 +56,7 @@ github şirketi bünyesinde açık kaynak ile geliştirilen bir git arayüzüdü
 
 temelde kendi yerel depomuz üzerinde yaptığımız işlemler yaptığımız gibi kendi sunucuları üzerinde git işlemleri yapan bir web uygulamasıdır.
 
-## neleri kolaylaştırır?
+### neleri kolaylaştırır?
 
 - git komutları kullanmadan web arayüzü ile bir çok işlemi butonlar ile yapabilme imkanı verir.
 - web arayüzü üzerinden kayıtlı kullanıcıların uzak depoları kullanabilmesini sağlar. 
@@ -64,27 +64,27 @@ temelde kendi yerel depomuz üzerinde yaptığımız işlemler yaptığımız gi
 - geliştirme sürecinde kullanıcılar arası iletişimi kolaylaştıran çözümlere sahiptir.
 - ekip ve proje yönetim hizmetleri vardır.
 
-## nerelerde kullanılır?
+### nerelerde kullanılır?
 - git tabanlı proje geliştirmede kolay arayüzü tercih sebebidir.
 - proje takibi ve yönetiminde kullanışlı araçları vardır.
 - ekip yönetim çözümleri ile firmalar tarafından bile tercih edilebilmektedir.
 - iş takibindeki netliği ile geliştiriciler tarafından işini tanıtmak adına portfolyo olarak da kullanılabilir.
 
-## nasıl çalışır?
+### nasıl çalışır?
 `çözümlerin kullanımı`
 `çok yakında...`
 
 ## github desktop nedir?
 github platformunda electron js altyapısı üzerinde geliştirilen açık kaynak kodlu depo yönetim uygulamasıdır.
 
-## neleri kolaylaştırır?
+### neleri kolaylaştırır?
 konsol üzerinde kullanılan git işlemlerini pratik biçimde arayüz üzerinden kullanmayı sağlar.
 
 dosya üzerindeki değişiklikleri görüntülemeyi sağlar.
 
 konsola olan bağımlılığı azaltır.
 
-## nasıl çalışır?
+### nasıl çalışır?
 `çok yakında...`
 
 ## ide üzerinde git kullanımı
