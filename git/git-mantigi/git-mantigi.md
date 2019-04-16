@@ -136,11 +136,3 @@ Bazı IDE ve editörler eklentileri ile Git fonksiyonlarının kullanımını sa
 <!-- çekme isteği ve çatal çıkarma konusunda pek detay veremedim bende yeni öğrendim birazdan bu geliştirme işlemiyle ile deneyeceğim. umarım başarılı olurum -->
 <!-- muhtemelen bunu hazırlarken bir çok kuralı ihlal ettim fakat denemekten korkmuyorum öğrenmek istiyorum. önerilerinize açığım. -->
 <!-- TODO tu bi kontinyud - 20190415-164700-muaz -->
-<!--test yazısı başlangıcı
-bu bir test yazısıdır lütfen ciddiye almayınız
-birden fazla satıra yorum ekleme test ediliyor
-her seferinde yorun etiketi başlatmak zorunda kalmadan tek seferde açılan yorum başlangıç 
-etiketinin sonraki satırlarda kapanmasının 
-etkili olup olmadığını deniyorum 
-bu bir test yazısıdır lütfen ciddiye almayınız
-test yazısı sonu-->
