@@ -1,125 +1,124 @@
-# git mantığı
-git işleyiş (akış) mantığını kavrama rehberi
+# Git Mantığı
+Git işleyiş (akış) mantığını kavrama rehberi.
 
-**içerik listesi**
-- [git nedir?](#git-nedir)
-    - [neleri kolaylaştırır?](#neleri-kolaylaştırır)
-    - [nerelerde kullanılır?](#nerelerde-kullanılır)
-    - [nasıl çalışır?](#nasıl-çalışır)
-- [github nedir?](#github-nedir)
-    - [neleri kolaylaştırır?](#neleri-kolaylaştırır-1)
-    - [nerelerde kullanılır?](#nerelerde-kullanılır-1)
-    - [nasıl çalışır?](#nasıl-çalışır-1)
-- [github desktop nedir?](#github-desktop-nedir)
-    - [neleri kolaylaştırır?](#neleri-kolaylaştırır-2)
-    - [nerelerde kullanılır?](#nerelerde-kullanılır-2)
-    - [nasıl çalışır?](#nasıl-çalışır-2)
-- [ide üzerinde git kullanımı](#ide-üzerinde-git-kullanımı)
+**İçerik Listesi**
+- [Git Nedir?](#git-nedir)
+    - [Neleri Kolaylaştırır?](#neleri-kolaylaştırır)
+    - [Nerelerde Kullanılır?](#nerelerde-kullanılır)
+    - [Nasıl Çalışır?](#nasıl-çalışır)
+- [Github Nedir?](#github-nedir)
+    - [Neleri Kolaylaştırır?](#neleri-kolaylaştırır-1)
+    - [Nerelerde Kullanılır?](#nerelerde-kullanılır-1)
+    - [Nasıl Çalışır?](#nasıl-çalışır-1)
+- [GitHub Desktop Nedir?](#github-desktop-nedir)
+    - [Neleri Kolaylaştırır?](#neleri-kolaylaştırır-2)
+    - [Nerelerde Kullanılır?](#nerelerde-kullanılır-2)
+    - [Nasıl Çalışır?](#nasıl-çalışır-2)
+- [IDE Üzerinde Git Kullanımı](#ide-üzerinde-git-kullanımı)
 
 
-## git nedir? 
+## Git Nedir? 
 
-git, versiyon konrtol sistemidir.
+Git, versiyon konrtol sistemidir. Kullanımı ücretsiz ve açık kaynak bir uygulamadır. Bir çok kullanıcı ve firma tarafından tercih edilir. Meraklısı için [resmi sayfası](https://git-scm.com/about).
 
-### neleri kolaylaştırır?
-- proje klasörü üzerinde yapılan değişiklikleri adım adım kaydetmeyi sağlar
-- yapılan değişiklikler arasında hızlıca geçiş yapmayı sağlar
-- bireylerin birbirinden bağımsız ortamlarda geliştirme yapabilmesi esnekliğine sahiptir
-- bağımsız geliştirme yapısı ile aynı anda geliştirme yapmaya olanak verir ve böylelikle gelişim sürecinde tasarruf sağlar
+### Neleri Kolaylaştırır?
+- Proje klasörü üzerinde yapılan değişiklikleri adım adım kaydetmeyi sağlar.
+- Yapılan değişiklikler arasında hızlıca geçiş yapmayı sağlar.
+- Bireylerin birbirinden bağımsız ortamlarda geliştirme yapabilmesi esnekliğine sahiptir.
+- Bağımsız geliştirme yapısı ile aynı anda geliştirme yapmaya olanak verir ve böylelikle gelişim sürecinde tasarruf sağlar.
 <!-- FIXME daha da basitleştirilebilir -->
 
-### nerelerde kullanılır?
-genel olarak yazılım yapıları geliştirmede kullanılsa da kullanım alanı oldukça geniştir.
+### Nerelerde Kullanılır?
+Genel olarak yazılım yapıları geliştirmede kullanılsa da kullanım alanı oldukça geniştir.
 
-dijital klasör içinde üretilebilen her şeyin gelişim sürecini takip etme esnekliğine sahiptir. kitap yazılabilir, resim yapılabilir, şarkı bile üretilebilir.
+Dijital klasör içinde üretilebilen her şeyin gelişim sürecini takip etme esnekliğine sahiptir. Kitap yazılabilir, resim yapılabilir, şarkı bile üretilebilir.
 
-kısaca birlikte bir ürün geliştirmenin en pratik ve sağlıklı yoludur.
+Kısaca birlikte bir ürün geliştirmenin en pratik ve sağlıklı yoludur.
 
-### nasıl çalışır?
+### Nasıl Çalışır?
 
-git, tanımlaması yapılan klasör içeriside "**.git**" adında bir klasör oluşturur.
+Git, tanımlaması yapılan klasör içeriside "**.git**" adında bir klasör oluşturur.
 
-bu klasör içerisinde git kendi dosyalarını barındırır. 
+Bu klasör içerisinde Git kendi dosyalarını barındırır. 
 
-tanımlaması yapılmış olan klasör **workspace** (*ˈwərkˌspās*) veya **working area** (*ˈwərkiNG ˈe(ə)rēə*) adı verilen **çalışma alanıdır** ve bu alan içerisinde geliştirme yapılır.
+Tanımlaması yapılmış olan klasör **workspace** (*ˈwərkˌspās*) veya **working directory** (*ˈwərkiNG diˈrektərē*) adı verilen **çalışma alanıdır** ve bu alan içerisinde geliştirme yapılır.
 
-git, klasör içerisindeki değişimleri takip eder.
+Git, klasör içerisindeki değişimleri takip eder.
 
-belirlenen değişiklikler arasından projeye işlenmek istenen değişiklikler seçilir ve git üzerinde **staging area** (*ˈstājiNG ˈe(ə)rēə*) adı verilen **aşamalar alanına** aktarılır.
+Belirlenen değişiklikler arasından projeye işlenmek istenen değişiklikler seçilir ve Git üzerinde **staging area** (*ˈstājiNG ˈe(ə)rēə*) adı verilen **aşamalar alanına** aktarılır.
 
-çalışmadaki aşamalar **commit** *(kəˈmit)* adı verilen **işlem kaydı** ile kayıt altına alınır.
+Çalışmadaki aşamalar **commit** *(kəˈmit)* adı verilen **işlem kaydı** ile kayıt altına alınır.
 
-proje dosyaları ve işlem kayıtları **repository** (*riˈpäzəˌtôrē*) adı verilen **depo**larda barındırılır.
+Proje dosyaları ve işlem kayıtları **repository** (*riˈpäzəˌtôrē*) adı verilen **depo**larda barındırılır.
 
-işlem kaydı yapılan aşamalar **local repository** (*ˈlōkəl riˈpäzəˌtôrē*) adı verilen **yerel depo** içine aktarılır.
+İşlem kaydı yapılan aşamalar **local repository** (*ˈlōkəl riˈpäzəˌtôrē*) adı verilen **yerel depo** içine aktarılır.
 
-işlem kayıtları bütünü işlem akışını oluşturur. bu akış gelişim sürecini görmeyi sağlar. gelişimin zaman çizgisi **branch** (*branCH*) adı verilen **dal**larla gösterilir. 
+İşlem kayıtları bütünü işlem akışını oluşturur. Bu akış gelişim sürecini görmeyi sağlar. Gelişimin zaman çizgisi **branch** (*branCH*) adı verilen **dal**larla gösterilir. 
 
-üzerinde çalıştığımız dal **master** (*ˈmastər*) adı verilen **ana dal**dır.
+Üzerinde çalıştığımız dal **master** (*ˈmastər*) adı verilen **ana dal**dır.
 
-tercihe göre ek dallar çıkartılabilir, her gelişimin kendi iş akışında ilerleyebilir, bu dallar daha sonra birleştirilebilir.
+Tercihe göre ek dallar çıkartılabilir, her gelişimin kendi iş akışında ilerleyebilir, bu dallar daha sonra birleştirilebilir.
 
-projeler, git sunucusu üzerinde **remote repository** (*riˈmōt riˈpäzəˌtôrē*) adı verilen **uzak depo**larda da barınabilir.
+Projeler, Git sunucusu üzerinde **remote repository** (*riˈmōt riˈpäzəˌtôrē*) adı verilen **uzak depo**larda da barınabilir.
 
-uzak deponun varsayılan ana dalı **origin** (*ˈôrəjən*) adı verilen **uzak ana dal**dır. depo içeriğine göre dallar değişebilir.
+Uzak deponun varsayılan ana dalı **origin** (*ˈôrəjən*) adı verilen **uzak ana dal**dır. Depo içeriğine göre dallar değişebilir.
 
-yerel depo ile uzak depo arasında eşitleme yapılabilir.
+Yerel depo ile uzak depo arasında eşitleme yapılabilir.
 
-eşitleme ile başkasına ait depo üzerinde de geliştirme yapılabilir.
+Eşitleme ile başkasına ait depo üzerinde de geliştirme yapılabilir.
 
-geliştirme yapılacak uzak deponun seçilen dalından **fork** (*fôrk*) adı verilen **çatal çıkar**ma yöntemi ile çıkarılan dal yerel depoya kopyalanır.
+Geliştirme yapılacak uzak deponun seçilen dalından **fork** (*fôrk*) adı verilen **çatal çıkar**ma yöntemi ile çıkarılan dal yerel depoya kopyalanır.
 
-bu dal üzerinde yapılan güncellemeler **pull request** (*po͝ol riˈkwest*) adı verilen **çekme isteği** yöntemi ile uzak deponun sahibine geri gönderilir.
+Bu dal üzerinde yapılan güncellemeler **pull request** (*po͝ol riˈkwest*) adı verilen **çekme isteği** yöntemi ile uzak deponun sahibine geri gönderilir.
 
-uzak depo sahibi çekme isteklerini denetleyebilir, düzenleyebilir, ana dal ile birleştirebilir.
+Uzak depo sahibi çekme isteklerini denetleyebilir, düzenleyebilir, ana dal ile birleştirebilir.
 
-bu döngü sürdüğü sürece gelişim devam eder.
+Bu döngü sürdüğü sürece gelişim devam eder.
 
 <!-- TODO işlem akışını ifade eden görsel içerik oluşturulacak, tanımlanacak -->
 
-## github nedir?
-github şirketi bünyesinde açık kaynak ile geliştirilen bir git arayüzüdür. 
+## GitHub Nedir?
+GitHub şirketi bünyesinde açık kaynak ile geliştirilen bir Git arayüzüdür. 
 
-temelde kendi yerel depomuz üzerinde yaptığımız işlemler yaptığımız gibi kendi sunucuları üzerinde git işlemleri yapan bir web uygulamasıdır.
+Temelde kendi yerel depomuz üzerinde yaptığımız işlemler yaptığımız gibi kendi sunucuları üzerinde Git işlemleri yapan bir web uygulamasıdır.
 
-### neleri kolaylaştırır?
+### Neleri Kolaylaştırır?
 
-- git komutları kullanmadan web arayüzü ile bir çok işlemi butonlar ile yapabilme imkanı verir.
-- web arayüzü üzerinden kayıtlı kullanıcıların uzak depoları kullanabilmesini sağlar. 
-- geliştirme sürecini takip etmeyi kolaylaştırır.
-- geliştirme sürecinde kullanıcılar arası iletişimi kolaylaştıran çözümlere sahiptir.
-- ekip ve proje yönetim hizmetleri vardır.
+- Git komutları kullanmadan web arayüzü ile bir çok işlemi butonlar ile yapabilme imkanı verir.
+- Web arayüzü üzerinden kayıtlı kullanıcıların uzak depoları kullanabilmesini sağlar. 
+- Geliştirme sürecini takip etmeyi kolaylaştırır.
+- Geliştirme sürecinde kullanıcılar arası iletişimi kolaylaştıran çözümlere sahiptir.
+- Ekip ve proje yönetim hizmetleri vardır.
 
-### nerelerde kullanılır?
-- git tabanlı proje geliştirmede kolay arayüzü tercih sebebidir.
-- proje takibi ve yönetiminde kullanışlı araçları vardır.
-- ekip yönetim çözümleri ile firmalar tarafından bile tercih edilebilmektedir.
-- iş takibindeki netliği ile geliştiriciler tarafından işini tanıtmak adına portfolyo olarak da kullanılabilir.
+### Nerelerde Kullanılır?
+- Git tabanlı proje geliştirmede kolay arayüzü tercih sebebidir.
+- Proje takibi ve yönetiminde kullanışlı araçları vardır.
+- Ekip yönetim çözümleri ile firmalar tarafından bile tercih edilebilmektedir.
+- İş takibindeki netliği ile geliştiriciler tarafından işini tanıtmak adına portfolyo olarak da kullanılabilir.
 
-### nasıl çalışır?
-`çözümlerin kullanımı`
+### Nasıl Çalışır?
 `çok yakında...`
 
-## github desktop nedir?
-github platformunda electron js altyapısı üzerinde geliştirilen açık kaynak kodlu depo yönetim uygulamasıdır.
+## GitHub Desktop Nedir?
+GitHub platformunda Electron JS altyapısı üzerinde geliştirilen açık kaynak kodlu depo yönetim uygulamasıdır.
 
-### neleri kolaylaştırır?
-konsol üzerinde kullanılan git işlemlerini pratik biçimde arayüz üzerinden kullanmayı sağlar.
+### Neleri Kolaylaştırır?
+Konsol üzerinde kullanılan Git işlemlerini pratik biçimde arayüz üzerinden kullanmayı sağlar.
 
-dosya üzerindeki değişiklikleri görüntülemeyi sağlar.
+Dosya üzerindeki değişiklikleri görüntülemeyi sağlar.
 
-konsola olan bağımlılığı azaltır.
+Konsola olan bağımlılığı azaltır.
 
-### nerelerde kullanılır
+### Nerelerde Kullanılır
 `çok yakında...`
 
-### nasıl çalışır?
+### Nasıl Çalışır?
 `çok yakında...`
 
-## ide üzerinde git kullanımı
-bazı ide ve editörler eklentileri ile git fonksiyonlarının kullanımını sağlamaktadır. 
+## IDE Üüzerinde Git Kullanımı
+Bazı IDE ve editörler eklentileri ile Git fonksiyonlarının kullanımını sağlamaktadır. 
 
-***uyarı:*** _bu eklentilerin gelişimleri sürdüğünden burada gösterilen yönergeler değişiklik gösterebilir._
+***UYARI:*** _Bu eklentilerin gelişimleri sürdüğünden burada gösterilen yönergeler değişiklik gösterebilir._
 
 `çok yakında...`
 
