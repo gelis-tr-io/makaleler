@@ -3,18 +3,18 @@ git işleyiş (akış) mantığını kavrama rehberi
 
 **içerik listesi**
 - [git nedir?](#git-nedir)
+    - [neleri kolaylaştırır?](#neleri-kolaylaştırır)
+    - [nerelerde kullanılır?](#nerelerde-kullanılır)
+    - [nasıl çalışır?](#nasıl-çalışır)
+- [github nedir?](#github-nedir)
     - [neleri kolaylaştırır?](#neleri-kolaylaştırır-1)
     - [nerelerde kullanılır?](#nerelerde-kullanılır-1)
     - [nasıl çalışır?](#nasıl-çalışır-1)
-- [github nedir?](#github-nedir)
+- [github desktop nedir?](#github-desktop-nedir)
     - [neleri kolaylaştırır?](#neleri-kolaylaştırır-2)
     - [nerelerde kullanılır?](#nerelerde-kullanılır-2)
     - [nasıl çalışır?](#nasıl-çalışır-2)
-- [github desktop nedir?](#github-desktop-nedir)
-    - [neleri kolaylaştırır?](#neleri-kolaylaştırır-3)
-    - [nerelerde kullanılır?](#nerelerde-kullanılır-3)
-    - [nasıl çalışır?](#nasıl-çalışır-3)
-- [ide üzerinde git kullanımı](#ide-zerinde-git-kullanm)
+- [ide üzerinde git kullanımı](#ide-üzerinde-git-kullanımı)
 
 
 ## git nedir? 
