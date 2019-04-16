@@ -3,17 +3,17 @@ git işleyiş (akış) mantığını kavrama rehberi
 
 **içerik listesi**
 - [git nedir?](#git-nedir)
-    - [neleri kolaylaştırır?](#neleri-kolaylatrr)
-    - [nerelerde kullanılır?](#nerelerde-kullanlr)
-    - [nasıl çalışır?](#nasl-alr)
+    - [neleri kolaylaştırır?](#neleri-kolaylaştırır)
+    - [nerelerde kullanılır?](#nerelerde-kullanılır)
+    - [nasıl çalışır?](#nasıl-çalışır)
 - [github nedir?](#github-nedir)
-    - [neleri kolaylaştırır?](#neleri-kolaylatrr)
-    - [nerelerde kullanılır?](#nerelerde-kullanlr)
-    - [nasıl çalışır?](#nasl-alr)
+    - [neleri kolaylaştırır?](#neleri-kolaylaştırır)
+    - [nerelerde kullanılır?](#nerelerde-kullanılır)
+    - [nasıl çalışır?](#nasıl-çalışır)
 - [github desktop nedir?](#github-desktop-nedir)
-    - [neleri kolaylaştırır?](#neleri-kolaylatrr)
-    - [nerelerde kullanılır?](#nerelerde-kullanlr)
-    - [nasıl çalışır?](#nasl-alr)
+    - [neleri kolaylaştırır?](#neleri-kolaylaştırır)
+    - [nerelerde kullanılır?](#nerelerde-kullanılır)
+    - [nasıl çalışır?](#nasıl-çalışır)
 - [ide üzerinde git kullanımı](#ide-zerinde-git-kullanm)
 
 
