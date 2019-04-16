@@ -37,24 +37,42 @@ kısaca birlikte bir ürün geliştirmenin en pratik ve sağlıklı yoludur.
 
 ### nasıl çalışır?
 
-git, tanımlaması yapılan klasör içeriside "**.git**" adında bir klasör oluşturur.<br>
-bu klasör içerisinde git kendi dosyalarını barındırır. <br>
-tanımlaması yapılmış olan klasör **workspace** (*ˈwərkˌspās*) veya **working area** (*ˈwərkiNG ˈe(ə)rēə*) adı verilen **çalışma alanıdır** ve bu alan içerisinde geliştirme yapılır.<br>
-git, klasör içerisindeki değişimleri takip eder.<br>
-belirlenen değişiklikler arasından projeye işlenmek istenen değişiklikler seçilir ve git üzerinde **staging area** (*ˈstājiNG ˈe(ə)rēə*) adı verilen **aşamalar alanına** aktarılır.<br>
-çalışmadaki aşamalar **commit** *(kəˈmit)* adı verilen **işlem kaydı** ile kayıt altına alınır.<br>
-proje dosyaları ve işlem kayıtları **repository** (*riˈpäzəˌtôrē*) adı verilen **depo**larda barındırılır.<br>
-işlem kaydı yapılan aşamalar **local repository** (*ˈlōkəl riˈpäzəˌtôrē*) adı verilen **yerel depo** içine aktarılır.<br>
-işlem kayıtları bütünü işlem akışını oluşturur. bu akış gelişim sürecini görmeyi sağlar. gelişimin zaman çizgisi **branch** (*branCH*) adı verilen **dal**larla gösterilir. <br>
-üzerinde çalıştığımız dal **master** (*ˈmastər*) adı verilen **ana dal**dır.<br>
-tercihe göre ek dallar çıkartılabilir, her gelişimin kendi iş akışında ilerleyebilir, bu dallar daha sonra birleştirilebilir.<br>
-projeler, git sunucusu üzerinde **remote repository** (*riˈmōt riˈpäzəˌtôrē*) adı verilen **uzak depo**larda da barınabilir.<br>
-uzak deponun varsayılan ana dalı **origin** (*ˈôrəjən*) adı verilen **uzak ana dal**dır. depo içeriğine göre dallar değişebilir.<br>
-yerel depo ile uzak depo arasında eşitleme yapılabilir.<br>
-eşitleme ile başkasına ait depo üzerinde de geliştirme yapılabilir.<br>
-geliştirme yapılacak uzak deponun seçilen dalından **fork** (*fôrk*) adı verilen **çatal çıkar**ma yöntemi ile çıkarılan dal yerel depoya kopyalanır.<br>
-bu dal üzerinde yapılan güncellemeler **pull request** (*po͝ol riˈkwest*) adı verilen **çekme isteği** yöntemi ile uzak deponun sahibine geri gönderilir.<br>
-uzak depo sahibi çekme isteklerini denetleyebilir, düzenleyebilir, ana dal ile birleştirebilir.<br>
+git, tanımlaması yapılan klasör içeriside "**.git**" adında bir klasör oluşturur.
+
+bu klasör içerisinde git kendi dosyalarını barındırır. 
+
+tanımlaması yapılmış olan klasör **workspace** (*ˈwərkˌspās*) veya **working area** (*ˈwərkiNG ˈe(ə)rēə*) adı verilen **çalışma alanıdır** ve bu alan içerisinde geliştirme yapılır.
+
+git, klasör içerisindeki değişimleri takip eder.
+
+belirlenen değişiklikler arasından projeye işlenmek istenen değişiklikler seçilir ve git üzerinde **staging area** (*ˈstājiNG ˈe(ə)rēə*) adı verilen **aşamalar alanına** aktarılır.
+
+çalışmadaki aşamalar **commit** *(kəˈmit)* adı verilen **işlem kaydı** ile kayıt altına alınır.
+
+proje dosyaları ve işlem kayıtları **repository** (*riˈpäzəˌtôrē*) adı verilen **depo**larda barındırılır.
+
+işlem kaydı yapılan aşamalar **local repository** (*ˈlōkəl riˈpäzəˌtôrē*) adı verilen **yerel depo** içine aktarılır.
+
+işlem kayıtları bütünü işlem akışını oluşturur. bu akış gelişim sürecini görmeyi sağlar. gelişimin zaman çizgisi **branch** (*branCH*) adı verilen **dal**larla gösterilir. 
+
+üzerinde çalıştığımız dal **master** (*ˈmastər*) adı verilen **ana dal**dır.
+
+tercihe göre ek dallar çıkartılabilir, her gelişimin kendi iş akışında ilerleyebilir, bu dallar daha sonra birleştirilebilir.
+
+projeler, git sunucusu üzerinde **remote repository** (*riˈmōt riˈpäzəˌtôrē*) adı verilen **uzak depo**larda da barınabilir.
+
+uzak deponun varsayılan ana dalı **origin** (*ˈôrəjən*) adı verilen **uzak ana dal**dır. depo içeriğine göre dallar değişebilir.
+
+yerel depo ile uzak depo arasında eşitleme yapılabilir.
+
+eşitleme ile başkasına ait depo üzerinde de geliştirme yapılabilir.
+
+geliştirme yapılacak uzak deponun seçilen dalından **fork** (*fôrk*) adı verilen **çatal çıkar**ma yöntemi ile çıkarılan dal yerel depoya kopyalanır.
+
+bu dal üzerinde yapılan güncellemeler **pull request** (*po͝ol riˈkwest*) adı verilen **çekme isteği** yöntemi ile uzak deponun sahibine geri gönderilir.
+
+uzak depo sahibi çekme isteklerini denetleyebilir, düzenleyebilir, ana dal ile birleştirebilir.
+
 bu döngü sürdüğü sürece gelişim devam eder.
 
 <!-- TODO işlem akışını ifade eden görsel içerik oluşturulacak, tanımlanacak -->
