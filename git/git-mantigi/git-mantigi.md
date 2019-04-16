@@ -1,5 +1,5 @@
 # git mantığı
-
+git işleyiş (akış) mantığını kavrama rehberi
 
 ## git nedir? 
 
@@ -52,10 +52,46 @@ bu döngü sürdüğü sürece gelişim devam eder.
 <!-- TODO işlem akışını ifade eden görsel içerik oluşturulacak, tanımlanacak -->
 
 ## github nedir?
+github şirketi bünyesinde açık kaynak ile geliştirilen bir git arayüzüdür. 
+
+temelde kendi yerel depomuz üzerinde yaptığımız işlemler yaptığımız gibi kendi sunucuları üzerinde git işlemleri yapan bir web uygulamasıdır.
+
+## neleri kolaylaştırır?
+
+- git komutları kullanmadan web arayüzü ile bir çok işlemi butonlar ile yapabilme imkanı verir.
+- web arayüzü üzerinden kayıtlı kullanıcıların uzak depoları kullanabilmesini sağlar. 
+- geliştirme sürecini takip etmeyi kolaylaştırır.
+- geliştirme sürecinde kullanıcılar arası iletişimi kolaylaştıran çözümlere sahiptir.
+- ekip ve proje yönetim hizmetleri vardır.
+
+## nerelerde kullanılır?
+- git tabanlı proje geliştirmede kolay arayüzü tercih sebebidir.
+- proje takibi ve yönetiminde kullanışlı araçları vardır.
+- ekip yönetim çözümleri ile firmalar tarafından bile tercih edilebilmektedir.
+- iş takibindeki netliği ile geliştiriciler tarafından işini tanıtmak adına portfolyo olarak da kullanılabilir.
+
+## nasıl çalışır?
+`çözümlerin kullanımı`
 `çok yakında...`
+
 ## github desktop nedir?
+github platformunda electron js altyapısı üzerinde geliştirilen açık kaynak kodlu depo yönetim uygulamasıdır.
+
+## neleri kolaylaştırır?
+konsol üzerinde kullanılan git işlemlerini pratik biçimde arayüz üzerinden kullanmayı sağlar.
+
+dosya üzerindeki değişiklikleri görüntülemeyi sağlar.
+
+konsola olan bağımlılığı azaltır.
+
+## nasıl çalışır?
 `çok yakında...`
+
 ## ide üzerinde git kullanımı
+bazı ide ve editörler eklentileri ile git fonksiyonlarının kullanımını sağlamaktadır. 
+
+***uyarı:*** _bu eklentilerin gelişimleri sürdüğünden burada gösterilen yönergeler değişiklik gösterebilir._
+
 `çok yakında...`
 
 #### dış kaynaklar
