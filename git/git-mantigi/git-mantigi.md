@@ -38,12 +38,12 @@ işlem kaydı yapılan aşamalar **local repository** (*ˈlōkəl riˈpäzəˌt�
 işlem kayıtları bütünü işlem akışını oluşturur. bu akış gelişim sürecini görmeyi sağlar. gelişimin zaman çizgisi **branch** (*branCH*) adı verilen **dal**larla gösterilir. 
 üzerinde çalıştığımız dal **master** (*ˈmastər*) adı verilen **ana dal**dır.
 tercihe göre ek dallar çıkartılabilir, her gelişimin kendi iş akışında ilerleyebilir, bu dallar daha sonra birleştirilebilir.
-projeler, git sunucusu üzerinde **remote repository** adı verilen **uzak depo**larda da barınabilir.
-uzak deponun varsayılan ana dalı **origin** adı verilen **uzak ana dal**dır. depo içeriğine göre dallar değişebilir.
+projeler, git sunucusu üzerinde **remote repository** (*riˈmōt riˈpäzəˌtôrē*) adı verilen **uzak depo**larda da barınabilir.
+uzak deponun varsayılan ana dalı **origin** (*ˈôrəjən*) adı verilen **uzak ana dal**dır. depo içeriğine göre dallar değişebilir.
 yerel depo ile uzak depo arasında eşitleme yapılabilir.
 eşitleme ile başkasına ait depo üzerinde de geliştirme yapılabilir.
-geliştirme yapılacak uzak deponun seçilen dalından **fork** adı verilen **çatal çıkar**ma yöntemi ile çıkarılan dal yerel depoya kopyalanır.
-bu dal üzerinde yapılan güncellemeler **pull request** adı verilen **çekme isteği** yöntemi ile uzak deponun sahibine geri gönderilir.
+geliştirme yapılacak uzak deponun seçilen dalından **fork** (*fôrk*) adı verilen **çatal çıkar**ma yöntemi ile çıkarılan dal yerel depoya kopyalanır.
+bu dal üzerinde yapılan güncellemeler **pull request** (*po͝ol riˈkwest*) adı verilen **çekme isteği** yöntemi ile uzak deponun sahibine geri gönderilir.
 
 uzak depo sahibi çekme isteklerini denetleyebilir, düzenleyebilir, ana dal ile birleştirebilir.
 
