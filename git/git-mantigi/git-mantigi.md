@@ -18,7 +18,7 @@ Git işleyiş (akış) mantığını kavrama rehberi.
 
 ## Git Nedir? 
 
-Git, versiyon konrtol sistemidir. Kullanımı ücretsiz ve açık kaynak bir uygulamadır. Bir çok kullanıcı ve firma tarafından tercih edilir. Meraklısı için [resmi sayfası](https://git-scm.com/about).
+Git, versiyon kontrol sistemidir. Kullanımı ücretsiz ve açık kaynak bir uygulamadır. Bir çok kullanıcı ve firma tarafından tercih edilir. Meraklısı için [resmi sayfası](https://git-scm.com/about).
 
 ### Neleri Kolaylaştırır?
 - Proje klasörü üzerinde yapılan değişiklikleri adım adım kaydetmeyi sağlar.
@@ -36,7 +36,7 @@ Kısaca birlikte bir ürün geliştirmenin en pratik ve sağlıklı yoludur.
 
 ### Nasıl Çalışır?
 
-Git, tanımlaması yapılan klasör içeriside "**.git**" adında bir klasör oluşturur.
+Git, tanımlaması yapılan klasör içerisinde "**.git**" adında bir klasör oluşturur.
 
 Bu klasör içerisinde Git kendi dosyalarını barındırır. 
 
@@ -52,7 +52,7 @@ Proje dosyaları ve işlem kayıtları **repository** (*riˈpäzəˌtôrē*) ad�
 
 İşlem kaydı yapılan aşamalar **local repository** (*ˈlōkəl riˈpäzəˌtôrē*) adı verilen **yerel depo** içine aktarılır.
 
-İşlem kayıtları bütünü işlem akışını oluşturur. Bu akış gelişim sürecini görmeyi sağlar. Gelişimin zaman çizgisi **branch** (*branCH*) adı verilen **dal**larla gösterilir. 
+İşlem kayıtları bütünü işlem akışını oluşturur. Bu akış, gelişim sürecini görmeyi sağlar. Gelişimin zaman çizgisi **branch** (*branCH*) adı verilen **dal**larla gösterilir. 
 
 Üzerinde çalıştığımız dal **master** (*ˈmastər*) adı verilen **ana dal**dır.
 
@@ -115,7 +115,7 @@ Konsola olan bağımlılığı azaltır.
 `çok yakında...`
 
 ## IDE Üzerinde Git Kullanımı
-Bazı IDE ve editörler eklentileri ile Git fonksiyonlarının kullanımını sağlamaktadır. 
+Bazı IDE ve editörler, eklentileri ile Git fonksiyonlarının kullanımını sağlamaktadır. 
 
 ***UYARI:*** _Bu eklentilerin gelişimleri sürdüğünden burada gösterilen yönergeler değişiklik gösterebilir._
 
