@@ -109,10 +109,38 @@ Dosya üzerindeki değişiklikleri görüntülemeyi sağlar.
 Konsola olan bağımlılığı azaltır.
 
 ### Nerelerde Kullanılır
-`çok yakında...`
+Genel komutları pratik biçimde yerine getirmesi sebebiyle tercih sebebidir.
+
+GitHub depolarını listeleme ve kontrol etme, değişiklikleri kıyaslama gibi fonksiyonları arayüz üzerinen üzerinden kullnamayı sağlar.
 
 ### Nasıl Çalışır?
-`çok yakında...`
+
+[GitHub Desktop](https://desktop.github.com/) adresinden uygun kurulum dosyası indirilir, kurulur.
+
+Kurulumu tamamlanan program açıldığında *File/Options* satırına tıklanınca açılan penceden *Accounts* sekmesinde tercihe göre oturum açılır.
+*GitHub Desktop hesaba kayıtlı depoları otomatik olarak indirmez.*
+
+Eğer cihazda Git yüklü değilse kullanmadan önce *Git* sekmesinden ayarlamaları yapmak gerekir. 
+
+Bu alana girilecek e-posta bilgisi GitHub hesabının kayıtlı olduğu web arayüzü üzerinden sırasıyla sağ üst köşedeki profil resmine tıklanınca açılan menüden *Settings*, sol menüdeki *Emails* satırlarına tıklanarak ulaşılan sayfadan kayıtlı e-posta bilgisidir.
+
+*appearance* sekmesi üzerinden arayüzde kullanılmak istenen arayüz görünümü seçimi yapılabilir.
+
+*advanced* sekmesinden varsayılan kod editörü, konsol, vb ayarlamalar yapılabilir.
+
+Hesaba tanımlı depolara ulaşmak için *File/Clone repository* satırına tıklanmalı. açılan pencerede *GitHub* sekmesi altında hesaba tanımlı uzak depolar lislenmektedir. yerel depoya kopyalanmak istenen depo seçilir. Hemen altında *Local path* başlığı altındaki kısımdan depo için kullanılacak dosya yolu seçilir. *Clone* tuşuna tıklanarak depo kopyalanmaya başlar.
+
+Hesaba tanımlı olmayan, bağlantısına sahip olunan başka bir uzak depoyu kopyalamak için *Url* sekmesine girilmeli. Sahip olunan uzak depo bağlantısı ilk kutucuğa girilir. İkinci kutucuğa kopyalanacak depo için kullanılacak dosya yolu seçilir. *Clone* tuşuna tıklanarak depo kopyalanmaya başlar.
+
+Yeni bir depo oluşturmak için *File/New repository* satırı tıklanır. GitHub üzerinde depo oluştururken istenen bilgileri talep eden bir pencere açılır. Farklı olarak yerel deponun dosya yolunu girmek gerekir. Tanımlar girildikten sonra *Create repository* butonuna tıklanarak depo oluşturulur.
+
+Yerel cihazda bulunan bir depoyu tanımlamak için *File/Add local repository* satırı tıklanır. Açılan pencerede yerel deponun dosya yolu seçilir. *Add repository* butonuna tıklanarak ekleme işlemi tamamlanır. 
+
+GitHub Desktop programına bir depo tanımladıktan sonra arayüzün üst kısmında seçili deponun durum bilgisini veren ve depo üzerinde pratik kontrol etmeye yarayan yarayan bir satır belirir.
+
+Bu satırın ilk bölümünde *current repository* başlığı altında seçili depo ismi görünür. Buraya tıklanarak programa tanımlı yerel depoların listesini görmek mümkündür. 
+
+Satırın ikinci bölününde *current branch* başlığı altında seçili depo üzerinde seçili dal bilgisi görünür. 
 
 ## IDE Üzerinde Git Kullanımı
 Bazı IDE ve editörler eklentileri ile Git fonksiyonlarının kullanımını sağlamaktadır. 
