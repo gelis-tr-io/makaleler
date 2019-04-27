@@ -141,6 +141,23 @@ GitHub Desktop programına bir depo tanımladıktan sonra arayüzün üst kısm�
 
 Bu satırın ilk bölümünde *current repository* başlığı altında seçili depo ismi görünür. Buraya tıklanarak programa tanımlı yerel depoların listesini görmek mümkündür. Listeden tercih edilen depoya tıklanarak ilgili depoya geçiş yapılabilir.
 
+Satırın ikinci bölününde *current branch* başlığı altında seçili depo üzerinde seçili dal bilgisi görünür. Buraya tıklanarak dallar arasında hızlı geçiş yapmak, yeni dal oluşturmak gibi dalları yönetmek mümkündür.
+
+Satırın üçüncü bölümünde ilgili dalın durumuna göre değişkenlik gösteren aksiyon butonu bulunur. Bu buton mevcut deponun uzak depo ile ilgili ilişkilerine göre gerekli aksiyonlara göre şekillenir.
+
+Mevcut depo seçiminin(*Current repository*) yapıldığı birinci bölümün altında bulunan sütunda iki sekme bulunur.
+
+Bu sekmelerden ilki *Changes* başlığıyla ilgili depo dosyaları üzerinde yapılan değişiklikleri listeler.
+
+Bu liste öğelerine tıklandığında ekranın sağ kısmında dosya üzerinde yapılan değişikliklerin ön izlemesi belirir.
+
+Değişiklikleri kayıt edilmek istenen dosyalar seçilerek hemen altındaki kutucuğa işlem bilgileri eklenerek en alttaki *Commit to master* tuşuna tıklanarak işlem kaydı oluşturulabilir. Bu işlem yapıldığı sırada üst satırdaki aksiyon butonu yerel depodaki değişiklikleri uzak depoya eşitlemek için gereken komuta dönüşecektir.
+
+Ayrıca *Changes* sekmesinde listelenmiş değişikliği henüz kayıt edilmemiş dosyalara sağ tıklayarak *Ignore file* satırına tıklanarak ilgili dosyayı *.gitignore* dosyasına eklemek gibi bir çok komut kullanılabilir.
+
+İkinci sekme *History* sekmesidir. Bu sekmede ilgili deponun işlem kaydı geçmişi yer almaktadır. İşlem adımları tıklandığı sırada sağ kısımda değişiklik gören dosyalar listelenir. Dosyalara tıklanarak ilgili değişikliğin ön izlemesi sağ kısımda görüntülenebilir.
+
+İşlem kaydına sağ tıklayarak *Revert* gibi geri yükleme vs komutlar kullanılabilir.
 
 ## IDE Üzerinde Git Kullanımı
 Bazı IDE ve editörler eklentileri ile Git fonksiyonlarının kullanımını sağlamaktadır. 
