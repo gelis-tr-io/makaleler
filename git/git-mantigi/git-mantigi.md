@@ -37,6 +37,8 @@ Kısaca birlikte bir ürün geliştirmenin en pratik ve sağlıklı yoludur.
 
 ### Nasıl Çalışır?
 
+![komutlar](goruntu1.png)
+
 Git, tanımlaması yapılan klasör içeriside "**.git**" adında bir klasör oluşturur.
 
 Bu klasör içerisinde Git kendi dosyalarını barındırır. 
@@ -75,7 +77,9 @@ Uzak depo sahibi çekme isteklerini denetleyebilir, düzenleyebilir, ana dal ile
 
 Bu döngü sürdüğü sürece gelişim devam eder.
 
-<!-- TODO işlem akışını ifade eden görsel içerik oluşturulacak, tanımlanacak -->
+![işleyiş](goruntu0.png)
+
+<!-- TODO işlem akışını ifade eden görsel içerik oluşturulacak, tanımlanacak, tanımlandı - 20190427185600-muaz -->
 
 ## GitHub Nedir?
 GitHub şirketi bünyesinde açık kaynak ile geliştirilen bir Git arayüzüdür. 
