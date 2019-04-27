@@ -15,6 +15,7 @@ Git işleyiş (akış) mantığını kavrama rehberi.
     - [Nerelerde Kullanılır?](#nerelerde-kullanılır-2)
     - [Nasıl Çalışır?](#nasıl-çalışır-2)
 - [IDE Üzerinde Git Kullanımı](#ide-üzerinde-git-kullanımı)
+    - [PhpStorm](#phpstorm)
 
 ## Git Nedir? 
 
@@ -138,22 +139,33 @@ Yerel cihazda bulunan bir depoyu tanımlamak için *File/Add local repository* s
 
 GitHub Desktop programına bir depo tanımladıktan sonra arayüzün üst kısmında seçili deponun durum bilgisini veren ve depo üzerinde pratik kontrol etmeye yarayan yarayan bir satır belirir.
 
-Bu satırın ilk bölümünde *current repository* başlığı altında seçili depo ismi görünür. Buraya tıklanarak programa tanımlı yerel depoların listesini görmek mümkündür. 
+Bu satırın ilk bölümünde *current repository* başlığı altında seçili depo ismi görünür. Buraya tıklanarak programa tanımlı yerel depoların listesini görmek mümkündür. Listeden tercih edilen depoya tıklanarak ilgili depoya geçiş yapılabilir.
 
-Satırın ikinci bölününde *current branch* başlığı altında seçili depo üzerinde seçili dal bilgisi görünür. 
 
 ## IDE Üzerinde Git Kullanımı
 Bazı IDE ve editörler eklentileri ile Git fonksiyonlarının kullanımını sağlamaktadır. 
 
-***UYARI:*** _Bu eklentilerin gelişimleri sürdüğünden burada gösterilen yönergeler değişiklik gösterebilir._
+***UYARI:*** _IDE ler üzerinde Git bağlantısı eklentiler ile sağlanmaktadır ve bu eklentilerin gelişimleri sürdüğünden burada gösterilen yönergeler değişiklik gösterebilir._
 
-`çok yakında...`
+### PhpStorm 
+PhpStorm bunlardan biridir. 
+
+Tanımlı yerel depo PhpStorm üzerinden açıldığında IDE bunu tanır ve tekrar tanımlamaya gerek kalmaz.
+
+IDE dosyaları ile proje dosyalarının birbirine karışmasına engel olmak için *.gitignore* dosyası ile git dışlaması tanımlanabilir. 
+Dışlamaları pratik biçimde tanımlamak için [gitignore.io](https://gitignore.io) gibi siteler üzerinde editörlere özel hazır tanımlara ulaşılabilir.
+
+PhpStorm üzerinde değişiklik yapılan dosyanın işlem kaydını gerçekleştirmek için *VCS/Commit* yolundan veya *Ctrl+K* kısayolundan işlem kaydı oluşturma ekranı açılabilir.
+İşlem kaydına dahil edilmek istenen dosyalar seçilir ve *Commit Message* bölümüne kayıt notu eklenerek sağ alt köşedeki *Commit* tuşuna tıklanarak işlem kaydı oluşturulabilir.
+İşlem kayıtları oluşturulduktan sonra kayıtları uzak sunucuya yüklemek için *VCS/Git/Push* yolundan veya *Ctrl+Shift+K* kısayolundan *Push Commit* penceresi açılarak seçilen dala işlem kayıtları gönderilebilir.
 
 #### dış kaynaklar
 - [Github kullanarak kolayca nasıl başkalarının kodlarına katkılar yapılır ve sosyalleşilir - Tarık Güney](https://www.youtube.com/watch?v=_AAax7iQ6VE)
 - [Sıfırdan Git Dersleri - GitHub Kullanımı - Kadir Kasım](https://www.youtube.com/watch?v=uncrCoLiq-g&list=PLHN6JcK509bOrevTCFrSMeAfBtuib4Gpg)
 - [git - basit rehber - tr](http://rogerdudler.github.io/git-guide/index.tr.html)
 - <a href="https://tr.0wikipedia.org/wiki/Git_(yaz%C4%B1l%C4%B1m)">Git (Yazılım) - vikipedi</a><a href="https://www.google.com/search?q=wikipedia+erişim+engeli"> - (neden '0.wikipedia.org'a yönlendiriliyorum?)</a>
+- [GitHub Desktop Documentation](https://help.github.com/en/desktop)
+- [gitignore.io](https://gitignore.io)
 <!-- 'nasıl çalışır' başlığında tüme varım ile olaylaştırarak okuyucuya mesajı vermeye çalıştım -->
 <!-- git kavramlarının ardına okunuşlarını google translate den aldığım okunuşlarınıda ekledim -->
 <!-- kavramların türkçeleştirmesi konusunda pek hakim değilim. düz mantık olay tabanlı (kullanımdaki işlevine göre) gittim. -->
