@@ -15,10 +15,11 @@ Git işleyiş (akış) mantığını kavrama rehberi.
     - [Nerelerde Kullanılır?](#nerelerde-kullanılır-2)
     - [Nasıl Çalışır?](#nasıl-çalışır-2)
 - [IDE Üzerinde Git Kullanımı](#ide-üzerinde-git-kullanımı)
+    - [PhpStorm](#phpstorm)
 
 ## Git Nedir? 
 
-Git, versiyon kontrol sistemidir. Kullanımı ücretsiz ve açık kaynak bir uygulamadır. Bir çok kullanıcı ve firma tarafından tercih edilir. Meraklısı için [resmi sayfası](https://git-scm.com/about).
+Git, versiyon konrtol sistemidir. Kullanımı ücretsiz ve açık kaynak bir uygulamadır. Bir çok kullanıcı ve firma tarafından tercih edilir. Meraklısı için [resmi sayfası](https://git-scm.com/about).
 
 ### Neleri Kolaylaştırır?
 - Proje klasörü üzerinde yapılan değişiklikleri adım adım kaydetmeyi sağlar.
@@ -35,6 +36,8 @@ Dijital klasör içinde üretilebilen her şeyin gelişim sürecini takip etme e
 Kısaca birlikte bir ürün geliştirmenin en pratik ve sağlıklı yoludur.
 
 ### Nasıl Çalışır?
+
+![komutlar](goruntu1.png)
 
 Git, tanımlaması yapılan klasör içerisinde "**.git**" adında bir klasör oluşturur.
 
@@ -74,7 +77,9 @@ Uzak depo sahibi çekme isteklerini denetleyebilir, düzenleyebilir, ana dal ile
 
 Bu döngü sürdüğü sürece gelişim devam eder.
 
-<!-- TODO işlem akışını ifade eden görsel içerik oluşturulacak, tanımlanacak -->
+![işleyiş](goruntu0.png)
+
+<!-- TODO işlem akışını ifade eden görsel içerik oluşturulacak, tanımlanacak, tanımlandı - 20190427185600-muaz -->
 
 ## GitHub Nedir?
 GitHub şirketi bünyesinde açık kaynak ile geliştirilen bir Git arayüzüdür. 
@@ -109,23 +114,79 @@ Dosya üzerindeki değişiklikleri görüntülemeyi sağlar.
 Konsola olan bağımlılığı azaltır.
 
 ### Nerelerde Kullanılır
-`çok yakında...`
+Genel komutları pratik biçimde yerine getirmesi sebebiyle tercih sebebidir.
+
+GitHub depolarını listeleme ve kontrol etme, değişiklikleri kıyaslama gibi fonksiyonları arayüz üzerinen üzerinden kullnamayı sağlar.
 
 ### Nasıl Çalışır?
-`çok yakında...`
+
+[GitHub Desktop](https://desktop.github.com/) adresinden uygun kurulum dosyası indirilir, kurulur.
+
+Kurulumu tamamlanan program açıldığında *File/Options* satırına tıklanınca açılan penceden *Accounts* sekmesinde tercihe göre oturum açılır.
+*GitHub Desktop hesaba kayıtlı depoları otomatik olarak indirmez.*
+
+Eğer cihazda Git yüklü değilse kullanmadan önce *Git* sekmesinden ayarlamaları yapmak gerekir. 
+
+Bu alana girilecek e-posta bilgisi GitHub hesabının kayıtlı olduğu web arayüzü üzerinden sırasıyla sağ üst köşedeki profil resmine tıklanınca açılan menüden *Settings*, sol menüdeki *Emails* satırlarına tıklanarak ulaşılan sayfadan kayıtlı e-posta bilgisidir.
+
+*appearance* sekmesi üzerinden arayüzde kullanılmak istenen arayüz görünümü seçimi yapılabilir.
+
+*advanced* sekmesinden varsayılan kod editörü, konsol, vb ayarlamalar yapılabilir.
+
+Hesaba tanımlı depolara ulaşmak için *File/Clone repository* satırına tıklanmalı. açılan pencerede *GitHub* sekmesi altında hesaba tanımlı uzak depolar lislenmektedir. yerel depoya kopyalanmak istenen depo seçilir. Hemen altında *Local path* başlığı altındaki kısımdan depo için kullanılacak dosya yolu seçilir. *Clone* tuşuna tıklanarak depo kopyalanmaya başlar.
+
+Hesaba tanımlı olmayan, bağlantısına sahip olunan başka bir uzak depoyu kopyalamak için *Url* sekmesine girilmeli. Sahip olunan uzak depo bağlantısı ilk kutucuğa girilir. İkinci kutucuğa kopyalanacak depo için kullanılacak dosya yolu seçilir. *Clone* tuşuna tıklanarak depo kopyalanmaya başlar.
+
+Yeni bir depo oluşturmak için *File/New repository* satırı tıklanır. GitHub üzerinde depo oluştururken istenen bilgileri talep eden bir pencere açılır. Farklı olarak yerel deponun dosya yolunu girmek gerekir. Tanımlar girildikten sonra *Create repository* butonuna tıklanarak depo oluşturulur.
+
+Yerel cihazda bulunan bir depoyu tanımlamak için *File/Add local repository* satırı tıklanır. Açılan pencerede yerel deponun dosya yolu seçilir. *Add repository* butonuna tıklanarak ekleme işlemi tamamlanır. 
+
+GitHub Desktop programına bir depo tanımladıktan sonra arayüzün üst kısmında seçili deponun durum bilgisini veren ve depo üzerinde pratik kontrol etmeye yarayan yarayan bir satır belirir.
+
+Bu satırın ilk bölümünde *current repository* başlığı altında seçili depo ismi görünür. Buraya tıklanarak programa tanımlı yerel depoların listesini görmek mümkündür. Listeden tercih edilen depoya tıklanarak ilgili depoya geçiş yapılabilir.
+
+Satırın ikinci bölününde *current branch* başlığı altında seçili depo üzerinde seçili dal bilgisi görünür. Buraya tıklanarak dallar arasında hızlı geçiş yapmak, yeni dal oluşturmak gibi dalları yönetmek mümkündür.
+
+Satırın üçüncü bölümünde ilgili dalın durumuna göre değişkenlik gösteren aksiyon butonu bulunur. Bu buton mevcut deponun uzak depo ile ilgili ilişkilerine göre gerekli aksiyonlara göre şekillenir.
+
+Mevcut depo seçiminin(*Current repository*) yapıldığı birinci bölümün altında bulunan sütunda iki sekme bulunur.
+
+Bu sekmelerden ilki *Changes* başlığıyla ilgili depo dosyaları üzerinde yapılan değişiklikleri listeler.
+
+Bu liste öğelerine tıklandığında ekranın sağ kısmında dosya üzerinde yapılan değişikliklerin ön izlemesi belirir.
+
+Değişiklikleri kayıt edilmek istenen dosyalar seçilerek hemen altındaki kutucuğa işlem bilgileri eklenerek en alttaki *Commit to master* tuşuna tıklanarak işlem kaydı oluşturulabilir. Bu işlem yapıldığı sırada üst satırdaki aksiyon butonu yerel depodaki değişiklikleri uzak depoya eşitlemek için gereken komuta dönüşecektir.
+
+Ayrıca *Changes* sekmesinde listelenmiş değişikliği henüz kayıt edilmemiş dosyalara sağ tıklayarak *Ignore file* satırına tıklanarak ilgili dosyayı *.gitignore* dosyasına eklemek gibi bir çok komut kullanılabilir.
+
+İkinci sekme *History* sekmesidir. Bu sekmede ilgili deponun işlem kaydı geçmişi yer almaktadır. İşlem adımları tıklandığı sırada sağ kısımda değişiklik gören dosyalar listelenir. Dosyalara tıklanarak ilgili değişikliğin ön izlemesi sağ kısımda görüntülenebilir.
+
+İşlem kaydına sağ tıklayarak *Revert* gibi geri yükleme vs komutlar kullanılabilir.
 
 ## IDE Üzerinde Git Kullanımı
-Bazı IDE ve editörler, eklentileri ile Git fonksiyonlarının kullanımını sağlamaktadır. 
+Bazı IDE ve editörler eklentileri ile Git fonksiyonlarının kullanımını sağlamaktadır. 
 
-***UYARI:*** _Bu eklentilerin gelişimleri sürdüğünden burada gösterilen yönergeler değişiklik gösterebilir._
+***UYARI:*** _IDE ler üzerinde Git bağlantısı eklentiler ile sağlanmaktadır ve bu eklentilerin gelişimleri sürdüğünden burada gösterilen yönergeler değişiklik gösterebilir._
 
-`çok yakında...`
+### PhpStorm 
+PhpStorm bunlardan biridir. 
+
+Tanımlı yerel depo PhpStorm üzerinden açıldığında IDE bunu tanır ve tekrar tanımlamaya gerek kalmaz.
+
+IDE dosyaları ile proje dosyalarının birbirine karışmasına engel olmak için *.gitignore* dosyası ile git dışlaması tanımlanabilir. 
+Dışlamaları pratik biçimde tanımlamak için [gitignore.io](https://gitignore.io) gibi siteler üzerinde editörlere özel hazır tanımlara ulaşılabilir.
+
+PhpStorm üzerinde değişiklik yapılan dosyanın işlem kaydını gerçekleştirmek için *VCS/Commit* yolundan veya *Ctrl+K* kısayolundan işlem kaydı oluşturma ekranı açılabilir.
+İşlem kaydına dahil edilmek istenen dosyalar seçilir ve *Commit Message* bölümüne kayıt notu eklenerek sağ alt köşedeki *Commit* tuşuna tıklanarak işlem kaydı oluşturulabilir.
+İşlem kayıtları oluşturulduktan sonra kayıtları uzak sunucuya yüklemek için *VCS/Git/Push* yolundan veya *Ctrl+Shift+K* kısayolundan *Push Commit* penceresi açılarak seçilen dala işlem kayıtları gönderilebilir.
 
 #### dış kaynaklar
 - [Github kullanarak kolayca nasıl başkalarının kodlarına katkılar yapılır ve sosyalleşilir - Tarık Güney](https://www.youtube.com/watch?v=_AAax7iQ6VE)
 - [Sıfırdan Git Dersleri - GitHub Kullanımı - Kadir Kasım](https://www.youtube.com/watch?v=uncrCoLiq-g&list=PLHN6JcK509bOrevTCFrSMeAfBtuib4Gpg)
 - [git - basit rehber - tr](http://rogerdudler.github.io/git-guide/index.tr.html)
 - <a href="https://tr.0wikipedia.org/wiki/Git_(yaz%C4%B1l%C4%B1m)">Git (Yazılım) - vikipedi</a><a href="https://www.google.com/search?q=wikipedia+erişim+engeli"> - (neden '0.wikipedia.org'a yönlendiriliyorum?)</a>
+- [GitHub Desktop Documentation](https://help.github.com/en/desktop)
+- [gitignore.io](https://gitignore.io)
 <!-- 'nasıl çalışır' başlığında tüme varım ile olaylaştırarak okuyucuya mesajı vermeye çalıştım -->
 <!-- git kavramlarının ardına okunuşlarını google translate den aldığım okunuşlarınıda ekledim -->
 <!-- kavramların türkçeleştirmesi konusunda pek hakim değilim. düz mantık olay tabanlı (kullanımdaki işlevine göre) gittim. -->
