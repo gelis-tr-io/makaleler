@@ -8,17 +8,17 @@ Unit testin amacı projemizin gelişim aşamasında iken parçaların doğru ça
 
 ## Unit Test Nasıl Yazılmalı ?
 
-    1- Unit test yazarken IO(dosya okuma, database, network) gibi zaman alabilecek donanım erişimlerini sahteleri ile simüle etmeliyiz. Aksi taktirde unit testiniz belki networkten dolayı bir sorundan dolayı başarısız olabilir. Başka etmenler (side-effect) devreye giriyor ve bu unit yani birim testinin tanımına ters düşer.
-    2- Public fonksiyonlarınızı ve metodlarınızı test edebilirsiniz.
-    4- Testleriniz izole olmalıdır database, network gibi bağımlılıklardan.
-    5- Testleriniz bir birinden bağımsız bir şekilde çalışabilmelidir.
+  - Unit test yazarken IO(dosya okuma, database, network) gibi zaman alabilecek donanım erişimlerini sahteleri ile simüle etmeliyiz. Aksi taktirde unit testiniz belki networkten dolayı bir sorundan dolayı başarısız olabilir. Başka etmenler (side-effect) devreye giriyor ve bu unit yani birim testinin tanımına ters düşer.
+  - Public fonksiyonlarınızı ve metodlarınızı test edebilirsiniz.
+  - Testleriniz izole olmalıdır database, network gibi bağımlılıklardan.
+  - Testleriniz bir birinden bağımsız bir şekilde çalışabilmelidir.
 
 ## Unit Test Avantajları Nelerdir ?
 
-    1- Kompleks olmayan parçaları test ettiğimiz için yazılması kolay ve hızlıdır.
-    2- Unit testler hızlı çalışırlar. Bunun sebebi yukarıda anlattığım gibi io işlemlerini fakeleri ile simüle etmemiz.
-    3- Development yaparken çalıştırabilirsiniz.
-    4- İzole ortamda çalıştığı için ister kendi bilgisayarınızda ister build servicede çalıştırabilirsiniz. 
+  - Kompleks olmayan parçaları test ettiğimiz için yazılması kolay ve hızlıdır.
+  - Unit testler hızlı çalışırlar. Bunun sebebi yukarıda anlattığım gibi io işlemlerini fakeleri ile simüle etmemiz.
+  - Development yaparken çalıştırabilirsiniz.
+  - İzole ortamda çalıştığı için ister kendi bilgisayarınızda ister build servicede çalıştırabilirsiniz. 
 
 ## Biraz Örnek Lütfen
 
@@ -61,9 +61,9 @@ exports.createObjectForUser = (email, password) => {
 
 Peki biz bu side-effect'i nasıl yok edebiliriz. Bu hash methodunu fake bir metodla değiştirip düzgün çalıştığından emin olabiliriz. Bunları yapmak için 2 yöntem var.
 
-  1- Stub: Fake edeceğiniz bağımlılık için basit bir sınıf ve fonksiyonlar yazıp bunları kullanmanız. Dezavantajı ise ekstra kod, sınıf yazmak.
+  - Stub: Fake edeceğiniz bağımlılık için basit bir sınıf ve fonksiyonlar yazıp bunları kullanmanız. Dezavantajı ise ekstra kod, sınıf yazmak.
   
-  2- Mock: Bir çeşit proxy, sahte nesne demektir ve orjinal nesne gibi davranır.
+  - Mock: Bir çeşit proxy, sahte nesne demektir ve orjinal nesne gibi davranır.
 
 Bu yöntemlerden genellikle mock tercih edilir bende bu makalede mock kullanacağım.
 Basit bir şekilde test sınıfımızı yazmaya başlıyalım.
