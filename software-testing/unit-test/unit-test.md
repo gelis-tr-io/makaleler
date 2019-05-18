@@ -4,13 +4,14 @@ Unit test, software testing(yazılım test etme) metodlarından sadece birisidir
 
 ## Unit Test Amacı Nedir ? 
 
-Unit testin amacı projemizin gelişim aşamasında iken parçaların doğru çalıştığından emin? olmamızı sağlar.
+Unit testin amacı projemizin gelişim aşamasında iken parçaların doğru çalıştığından emin? olmamızı sağlar. Burda emin? yazmamın nedenini Edsger W. Dijkstra'nın 1969'da söylediği güzel bir söz ile anlatayım **"Testing shows the presence, not the absence of bugs"**. Yani testler bugların yokluğunu değil varlığını gösterir.
 
 ## Unit Test Nasıl Yazılmalı ?
 
     1- Unit test yazarken IO(dosya okuma, database, network) gibi zaman alabilecek donanım erişimlerini sahteleri ile simüle etmeliyiz. Aksi taktirde unit testiniz belki networkten dolayı bir sorundan dolayı başarısız olabilir. Başka etmenler (side-effect) devreye giriyor ve bu unit yani birim testinin tanımına ters düşer.
     2- Public fonksiyonlarınızı ve metodlarınızı test edebilirsiniz.
     4- Testleriniz izole olmalıdır database, network gibi bağımlılıklardan.
+    5- Testleriniz bir birinden bağımsız bir şekilde çalışabilmelidir.
 
 ## Unit Test Avantajları Nelerdir ?
 
@@ -50,6 +51,7 @@ exports.createObjectForUser = (email, password) => {
 ```
 
 Örnek aslında çok basit ama aşina olmayanlar için kısa bir özet geçeyim. 
+
  * hashTheUserPassword metodu kullanıcının girdiği şifreyi hashliyor.
  * comparePlainPassWithHashedPass metodu kullanıcının girdiği şifre ile veritabanındaki şifresini kıyaslıyor.
  * createObjectForUser bu metod zaten logic içermeyen basit bir şekilde nesne dönderiyor.
@@ -59,8 +61,9 @@ exports.createObjectForUser = (email, password) => {
 
 Peki biz bu side-effect'i nasıl yok edebiliriz. Bu hash methodunu fake bir metodla değiştirip düzgün çalıştığından emin olabiliriz. Bunları yapmak için 2 yöntem var.
 
-    1- Stub: Fake edeceğiniz bağımlılık için basit bir sınıf ve fonksiyonlar yazıp bunları kullanmanız. Dezavantajı ise ekstra kod, sınıf yazmak.
-    2- Mock: Bir çeşit proxy, sahte nesne demektir ve orjinal nesne gibi davranır.
+  1- Stub: Fake edeceğiniz bağımlılık için basit bir sınıf ve fonksiyonlar yazıp bunları kullanmanız. Dezavantajı ise ekstra kod, sınıf yazmak.
+  
+  2- Mock: Bir çeşit proxy, sahte nesne demektir ve orjinal nesne gibi davranır.
 
 Bu yöntemlerden genellikle mock tercih edilir bende bu makalede mock kullanacağım.
 Basit bir şekilde test sınıfımızı yazmaya başlıyalım.
@@ -154,10 +157,12 @@ Time:        1.598s, estimated 2s
 
 Gördüğünüz gibi testlerimiz başarılı bir şekilde tamamlandı. Burdaki tabloyu code coverage'ı bilmeyenler için anlatayım. Dosyanın içinde test edilen fonksiyon, satır oranını gösterir. Testimizde sonuçlar %100 yani testimiz sonucunda bütün kod satırlarını ve fonksiyonları test etmiş olduk. Eğer vscode kullanıyorsanız henüz test edilmeyen satırları ve fonksiyonları gösterebilen extensionlar var. Ordan takip edebilirsiniz test aşamanızı.
 
+## Son
+
 Elimden geldiğince unit test konusunda bildiklerimi anlatmaya çalıştım. Umarım aktarabilmişimdir. Öğrenirken yardımcı olacak diğer bazı kaynakları aşağıya yazdım.
 
-Kaynaklar:
+## Kaynaklar
 
-    * https://www.youtube.com/playlist?list=PLZYKO7600KN89x_tdqGhP7n8b0KXPC8EY
-    * https://www.youtube.com/watch?v=b27h-7rsf6E&t=2322s
-    * https://www.softwaretestinghelp.com/types-of-software-testing/
+  * https://www.youtube.com/playlist?list=PLZYKO7600KN89x_tdqGhP7n8b0KXPC8EY
+  * https://www.youtube.com/watch?v=b27h-7rsf6E&t=2322s
+  * https://www.softwaretestinghelp.com/types-of-software-testing/
