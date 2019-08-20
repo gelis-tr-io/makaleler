@@ -11,6 +11,7 @@ Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerek
 ### [**Java**](java)
 - [Argüman aktarmayı anlamak](java/arguman-aktarmayi-anlamak/arguman-aktarmayi-anlamak.md) - [@enesusta](https://github.com/enesusta)
 - [Deadlock](java/deadlock/deadlock.md) - [@enesusta](https://github.com/enesusta)
+- [Özetleme Fonksiyonları](java/ozetleme-fonksiyonlari/ozetleme-fonksiyonlari.md) - [@furkankahvecii](https://github.com/furkankahvecii)
 
 
 ### [**JavaScript**](javascript)
