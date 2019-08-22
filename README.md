@@ -8,6 +8,10 @@ Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerek
 
 - [Callback kullanmak suretiyle Android kodumuzda Separation of Concerns sağlama](android/android-callback-ile-separation-of-concerns/android-callback-ile-separation-of-concerns.md) - [@oktaysenkan](https://github.com/oktaysenkan)
 
+### [**CSS**](css)
+
+- [Sass Rehberi](css/sass/sass-rehberi.md) - [@dferhat](https://github.com/dferhat)
+
 ### [**Java**](java)
 - [Argüman aktarmayı anlamak](java/arguman-aktarmayi-anlamak/arguman-aktarmayi-anlamak.md) - [@enesusta](https://github.com/enesusta)
 - [Deadlock](java/deadlock/deadlock.md) - [@enesusta](https://github.com/enesusta)
@@ -29,3 +33,5 @@ Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerek
 ### [***Software-Testing***](software-testing)
 
 - [Unit Test](software-testing/unit-test/unit-test.md) - [@serkanerip](https://github.com/serkanerip)
+
+
