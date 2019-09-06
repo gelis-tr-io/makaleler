@@ -277,4 +277,58 @@ Eğer liste içerisinde çift olan bir sayı var ise uyarı veriyoruz.
 
 ```
 
+Projelerimizdeki sınıflarımızın özellikleri kontrol edebilmemizi sağlayan metotları vardır.
 
+
+``` java
+	public class Product {
+	    	private String name;
+	    	private int type;
+	    
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public int getType() {
+			return type;
+		}
+		public void setType(int type) {
+			this.type = type;
+		}
+	}
+	
+	@Test
+	public void testListValue() {
+		
+		 
+		Product p1 = new Product();
+		p1.setType(1);
+		p1.setName("product1");
+		
+		Product p2 = new Product();
+		p2.setType(2);
+		p2.setName("product2");
+
+		List<Product> products = new ArrayList<>();
+		products.add(p1);
+		products.add(p2);
+
+
+		Assertions.assertThat(Product.class).hasDeclaredFields("name");
+		Assertions.assertThat(Product.class).hasDeclaredFields("type");
+		
+		Assertions.assertThat(Product.class).hasOnlyDeclaredFields("name","type");
+		
+
+		Assertions.assertThat(products)
+		.extracting("name", "type")
+		.contains(
+				Assertions.tuple("product1",1),
+				Assertions.tuple("product2",2)
+		);
+		
+	}
+
+```
