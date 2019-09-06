@@ -1,6 +1,4 @@
----
-layout: default
----
+
 # Java Dilinde Test Yazmak
 
 
