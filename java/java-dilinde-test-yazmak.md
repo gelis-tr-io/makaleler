@@ -332,3 +332,20 @@ Projelerimizdeki sınıflarımızın özellikleri kontrol edebilmemizi sağlayan
 	}
 
 ```
+```
+hasDeclaredFields()     --> metodu ile sınıf içindeki alanlarını tek tek kontrol edebiliriz.
+
+hasOnlyDeclaredFields() --> metodu ile sınıf içindeki tüm alanları tek metot ile kontrol edebiliriz.
+			Bu metot tüm alanların eklenmesini beklemektedir. Sınıfa yeni bir alan eklendiğinde,metoda da 
+			eklenmesini bekleyeceğinden  hata vererek eksik test yazılmasının önüne geçer :)
+
+
+Assertions.tuple()    -->  metodu ile sınıf içindeki alanlara karşılık gelmesini istediğimiz değerleri
+			tek tek kontrol edebilmemizi sağlıyor
+
+```
+
+**AssertJ** ye ait özellikleri **Assertions** sınıfı ile kullanabiliyoruz.
+
+**Behavior Driven Development** yaklaşımı ile yazmak istersek **BDDAssertions** isimli sınıfı kullanabiliriz.
+
