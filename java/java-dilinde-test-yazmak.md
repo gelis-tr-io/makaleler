@@ -349,3 +349,28 @@ Assertions.tuple()    -->  metodu ile sınıf içindeki alanlara karşılık gel
 
 **Behavior Driven Development** yaklaşımı ile yazmak istersek **BDDAssertions** isimli sınıfı kullanabiliriz.
 
+# Mock 
+
+Mock taklit, sahte  anlamına gelmektedir. 
+
+Testlerimizi yazarken aynı zamanda gerçek veriler ile test etmek isteyebiliriz. 
+Fakat elimizde her zaman test edebileceğimiz veri olmayabilir. 
+Gerçek verileri taklit eden veriler üreterek testlerimizin doğruluğunu kontrol edebiliriz. 
+
+JUnit testlerinde mock nesneler sıkça kullanılır. 
+Mock nesneler kullanılarak test edilen Java sınıfının bağımlılıkları test esnasında varmış gibi taklit edilir. 
+Test edilen Java sınıfı kullanılan Mock ve gerçek sınıflar arasında ayrım yapamaz. 
+Bu yüzden nasıl bağımlı olduğu sınıflarla beraber çalışıyorsa, test esnasında da bağımlılıklarını temsil eden mock nesneler ile işlem yapılır.
+
+Java yazarken kullanabileceğimiz mock kütüphanelerine bir kaç örnek verelim
+
+- Mockito https://site.mockito.org
+ 
+- EasyMock  http://easymock.org
+ 
+- PowerMock  https://github.com/powermock/powermock
+ 
+- Jmock  http://jmock.org
+
+
+Mockito kütüphanesini inceyelerek devam edeceğiz
