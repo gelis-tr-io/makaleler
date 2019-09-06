@@ -87,3 +87,18 @@ Kullanılması çok tercih edilenlere bakalım.
  assertFalse() 			--> parantez içindeki değerin false olmasını bekler
  assertArrayEquals()    --> parametre olarak verilen dizi karşılaştırılır
 ```
+
+### Junit Parameter
+
+Bir test metodunu farklı test parametreleri ile tekrar terkra test etmek isteyebiliriz. 
+Bu durumda aynı metodun farklı veri parametresi alan hallerini yazmak yerine şu kütüphaneden yararlanabiliriz.
+
+
+- http://pragmatists.github.io/JUnitParams 
+
+- https://github.com/Pragmatists/JUnitParams 
+
+```java
+@Parameters("a","b","c") yazımı ile  metoda gönderilerek parametreleri tek noktadan yönetebiliyoruz.
+
+```
