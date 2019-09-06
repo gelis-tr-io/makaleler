@@ -125,3 +125,27 @@ public void shouldTestExceptionMessage() throws IndexOutOfBoundsException {
 }
 
 ```
+
+### Junit Suite
+
+Yazdığımız testlerin tek noktadan çalıştırılmaya başlamasını sağlayabiliriz.
+
+**@Suite** ifadesi ile birden fazla test sınıfını koşturabiliriz.
+    
+```java
+  @RunWith(Suite.class)
+  @SuiteClasses({ UnitTest.class, SeviceTest.class })
+  public class AllTestsForProduct {
+  }
+```
+
+**@Ignore** ifadesi yazılmış fakat çalıştırılmasını istemediğimiz test metotlarının işaretlenerek çalışmasını engeller.
+Devre dışı bırakır
+
+```java
+  @Ignore(value=" Bu metot örnek olsun diye çalıştırılmadı.")
+  @Test
+  public void testPrintMessage() {
+    System.out.println("hello");
+  }
+```
