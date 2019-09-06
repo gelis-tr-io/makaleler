@@ -69,3 +69,21 @@ Bu ifadeden başka test sınıfları içinde metotlarda kullanılacak başka ifa
  @After          her test metodundan sonra
  @AfterClass     sınıf için bir kez ve en son çalışır
 ```
+
+### Junit Assertion
+Yazdığımız test metodumuzun içinde o metottan beklediğimiz durumu kontrol etmek isteriz.
+O metot içindeki iş mantıklarını parçalayarak sonuçlarını test etmek isteriz.
+
+- https://github.com/junit-team/junit4/wiki/Assertions 
+
+Kullanılması çok tercih edilenlere bakalım.
+
+```java
+ assertEquals()  		--> karşılaştırılan nesne örneğini içlerindeki equals() metodu ile test eder.
+ assertSame()  			--> karşılaştırılan nesne örneğini içlerindeki equals() metodu kullanmasan test eder.
+ assertNull()  			--> parantez içindeki değerin null olmasını bekler
+ assertNotNull()  		--> parantez içindeki değerin null olmamasını bekler
+ assertTrue() 			--> parantez içindeki değerin true olmasını bekler 
+ assertFalse() 			--> parantez içindeki değerin false olmasını bekler
+ assertArrayEquals()    --> parametre olarak verilen dizi karşılaştırılır
+```
