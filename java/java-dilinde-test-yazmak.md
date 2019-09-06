@@ -374,3 +374,17 @@ Java yazarken kullanabileceğimiz mock kütüphanelerine bir kaç örnek verelim
 
 
 Mockito kütüphanesini inceyelerek devam edeceğiz
+
+# Mockito
+
+Test yazarken bir işlemin çalışabildiğini kontrol etme ihtiyacımız olduğunda faydalanarabiliriz.
+
+Temel mantık , 
+
+yazılımdan yapmasını beklediğimiz işlemi karşılayan sahte veri veya işlem üretip,
+yazılımdan yapmasını beklediğimiz işlemi çalıştırıp sahte veri veya işlem ile karşılaştırmaktır.
+
+Bu durum yazılımın hangi işlemleri kapsadığını açıkça ortaya koymaktadır.
+
+
+
