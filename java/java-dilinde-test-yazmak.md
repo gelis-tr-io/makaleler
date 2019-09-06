@@ -205,3 +205,25 @@ Kullanılması çok tercih edilen metotlara bakalım
  hasItem()     --> liste karşılaştırılmalarında içerisinde bir elemanın olup olmadığı kontrolünü yapar
 
 ```
+
+# AssertJ
+
+Test metotlarına yardımcı olacak kütüphanelerden biridir. 
+Metotlar içindeki beklenen değerin üzerine kontroller ekleyebilmemizi sağlar.
+
+Örneğin 
+
+Bir cümle üzerindeki bazı kontrolleri görelim.
+
+```java
+
+	@Test
+	public void testSampleValue() { 
+		Assertions.assertThat("sample value")
+		.startsWith("sa")
+		.endsWith("e")
+		.containsOnlyOnce("v");
+	}
+```
+
+
