@@ -526,3 +526,13 @@ Kod içerisinde given bölümü
 // https://static.javadoc.io/org.mockito/mockito-core/2.23.4/org/mockito/Mockito.html#finding_redundant_invocations
 
 ```
+### Mockito VerifyZeroIteraction
+
+Belirsemde belirtmesemde bu mock nesnesi bu metotta hiç bir zaman çağrılamasın.
+
+```java
+Mockito.verifyZeroIteractions(resultList);
+
+https://static.javadoc.io/org.mockito/mockito-core/2.23.4/org/mockito/Mockito.html#never_verification
+
+```
