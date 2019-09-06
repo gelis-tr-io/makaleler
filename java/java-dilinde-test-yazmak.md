@@ -486,3 +486,15 @@ uyarı vererek bu işlemin daha önceki satırlarda yapılmadığının garantis
 		
 	}
 ```
+### Mockito Order Verification
+
+Test etmek istediğimiz durumların sırasıyla çalışmasını isteyebiliriz. Sıralı yapılan işlemelerin
+kontrolü için bu durumu kullanabiliriz.
+
+```java
+InOrder inOrder = inOrder(firstMock, secondMock);
+inOrder.verify(firstMock).add("was called first");
+inOrder.verify(secondMock).add("was called second");
+
+// https://static.javadoc.io/org.mockito/mockito-core/2.23.4/org/mockito/Mockito.html#in_order_verification 
+```
