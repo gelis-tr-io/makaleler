@@ -102,3 +102,26 @@ Bu durumda aynı metodun farklı veri parametresi alan hallerini yazmak yerine �
 @Parameters("a","b","c") yazımı ile  metoda gönderilerek parametreleri tek noktadan yönetebiliyoruz.
 
 ```
+
+### Junit Exception
+
+Bir işlem içerisinden istediğimiz bir istisna (exception) durumunu oluşturup test edebiliriz.
+
+Örneğin listede olmayan bir değeri çağırdığımızda bu durumu anlamak ve yönetmek istiyoruz.
+
+- https://github.com/junit-team/junit4/wiki/Exception-testing#expectedexception-rule
+
+```java
+@Rule
+public ExpectedException thrown = ExpectedException.none();
+
+@Test
+public void shouldTestExceptionMessage() throws IndexOutOfBoundsException {
+    List<Object> list = new ArrayList<Object>();
+ 
+    thrown.expect(IndexOutOfBoundsException.class);
+    thrown.expectMessage("Index: 0, Size: 0");
+    list.get(0); // execution will never get past this line
+}
+
+```
