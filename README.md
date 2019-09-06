@@ -16,6 +16,7 @@ Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerek
 - [Argüman aktarmayı anlamak](java/arguman-aktarmayi-anlamak/arguman-aktarmayi-anlamak.md) - [@enesusta](https://github.com/enesusta)
 - [Deadlock](java/deadlock/deadlock.md) - [@enesusta](https://github.com/enesusta)
 - [Özetleme Fonksiyonları](java/ozetleme-fonksiyonlari/ozetleme-fonksiyonlari.md) - [@furkankahvecii](https://github.com/furkankahvecii)
+- [Java Dilinde Test Yazmak](java/java-dilinde-test-yazmak/java-dilinde-test-yazmak.md) - [@keramiozsoy](https://github.com/keramiozsoy)
 
 
 ### [**JavaScript**](javascript)
