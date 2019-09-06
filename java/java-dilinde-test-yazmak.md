@@ -451,3 +451,38 @@ Bu şekilde test yapmanın bize sağladığı kolaylık mock ile belirlemiş obj
 
 // https://static.javadoc.io/org.mockito/mockito-core/2.23.4/org/mockito/Mockito.html#stubbing
 ```
+### Mockito Verification
+
+Örneğin
+
+Mockito kütüphanesi kullanarak listemizi sahte nesne olacak şekilde  oluşturuyoruz.
+Sahte nesneye özellikler kazandırmak için listeye elemanlar ekleyip daha sonra boyutunu kontrol ediyoruz.
+
+Yaptığımız işlemleri doğrulama ihtiyacı şu aşamada bize yardımcı oluyor.
+Gerçekte bu elemanları ekleyebilecek miydim?
+
+Listenin bir metodunu kullandık.Burada hazır metot kullandık fakat kendi yazdığımız bir metotta bu yöntemle test edebiliriz.
+Son satırda listemize 30 sayısını ekleyip eklemediğimizi kontrol ediyoruz. Bu işlem yapılmadığı için bu satır bize
+uyarı vererek bu işlemin daha önceki satırlarda yapılmadığının garantisini sağlamış oluyor.
+
+
+
+```java
+
+	@Test 
+	public void testMockitoMethod () {
+		// mocking
+		List<Integer> list = Mockito.mock(ArrayList.class);
+		
+		list.add(10);
+		list.add(20);
+		list.size();
+	
+		// verification
+		Mockito.verify(list).size();  
+		Mockito.verify(list).add(10);
+		Mockito.verify(list).add(20);
+		Mockito.verify(list).add(30); // error 
+		
+	}
+```
