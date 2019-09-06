@@ -498,3 +498,31 @@ inOrder.verify(secondMock).add("was called second");
 
 // https://static.javadoc.io/org.mockito/mockito-core/2.23.4/org/mockito/Mockito.html#in_order_verification 
 ```
+
+### Mockito VerifyNoMoreIteraction
+
+Test ettiğimiz durumdan sonra bu metot içerisinde başka duruma izin vermek istemediğimizi belirtiyoruz.
+
+Mock işlemi uygulanan listeye bir eleman eklenmiş ve bu eleman verify edilmiş durumda
+işte bu işlemden sonra liste üzerinde farklı bir işlem bu metot kapsamında yapılamasın istiyorsak
+verifyNoMoreInteractions kullanarak bu durumu oluşturabiliriz.
+Eğer yorum işareti kaldırılıp listeye ikinci bir eleman eklenirse bu test hata verecektir çünkü yeni bir işlem yapılamasın demiştik.
+
+Kod içerisinde given bölümü
+
+
+```java
+	@Test 
+	public void testMethodNoMoreElement () {
+		List<String> mockedList = Mockito.mock(ArrayList.class);
+
+		 mockedList.add("one");
+		//mockedList.add("two");
+
+		 Mockito.verify(mockedList).add("one");
+
+		 Mockito.verifyNoMoreInteractions(mockedList);
+	}
+// https://static.javadoc.io/org.mockito/mockito-core/2.23.4/org/mockito/Mockito.html#finding_redundant_invocations
+
+```
