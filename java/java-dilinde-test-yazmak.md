@@ -536,3 +536,46 @@ Mockito.verifyZeroIteractions(resultList);
 https://static.javadoc.io/org.mockito/mockito-core/2.23.4/org/mockito/Mockito.html#never_verification
 
 ```
+### Mockito Behavior
+
+Basitçe bir örnek ile konuyu özetleyelim.
+Testlerimizi davranış belirterek yazabiliriz.
+given.. when .. then.. şeklinde yazılan bir durum belirtiyoruz. Bunu Mockito ile yaptığımız için
+alt satırlarda when kısmına yazılan davranısı sergilediğimizde yanı bunu
+yapan bir kod yazdığımızda then kısmındaki işlem,dönüş değeri olarak sağlanır.
+ve daha sonra mock objelerimizi test ederek test metodunun amacını gerçekleştirmiş oluruz
+
+
+Given bölümünde dönüş değeri olarak Güzel Kitap bekleniyor.
+
+Test çalıştırıldığında
+
+When bölümünde resul olarak Güzel Kitap dönecektir.
+
+Then bölümünde karşılaştırma işlemi yapılarak işlem tamamlanacaktır.
+
+```java
+	public class ProductServiceImpl {
+		public String getProductByCode(String string) {
+			return "Güzel Kitap";
+		}
+	}
+	
+	@Test
+	public void testBDDStyle() {
+
+		ProductServiceImpl productService = Mockito.mock(ProductServiceImpl.class);
+
+		// given 
+		BDDMockito.given(productService.getProductByCode(Mockito.eq("kitap"))).willReturn("Güzel Kitap");
+
+		// when
+		String result =  productService.getProductByCode("kitap");
+		
+		// then
+		Assertions.assertThat(result).isEqualTo("Güzel Kitap");
+	}	
+	
+```
+
+Şimdilik bu kadar, bu yazıyı ile ilgili tüm geliştirmelerinizi bekliyorum :)
