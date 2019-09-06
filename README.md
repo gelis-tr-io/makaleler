@@ -1,4 +1,37 @@
-### Teorik ve pratik olarak bilgi içeren makaleler.
+# Makaleler
 
-#### Düzenleme gerekli.
-Karışıklık olmaması için öncelikle dizin yapısının nasıl olması gerektiği tartışılmalı ve eklenen makelelere, bu dosya üzerinde dizin yapısına uygun şekilde listelenerek linkler verilmelidir.
+Teorik ve pratik öğretiler içeren makaleleri bulabileceğiniz repository. Sizler de makalelerinizi burada paylaşabilir ve kolektif bir şekilde makalelerinizin gelişmesine ve daha çok insana ve size yardımcı olmasını sağlayabilirsiniz. 
+
+Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerekenler.md) okumayı lütfen unutmayın.
+
+### [**Android**](android)
+
+- [Callback kullanmak suretiyle Android kodumuzda Separation of Concerns sağlama](android/android-callback-ile-separation-of-concerns/android-callback-ile-separation-of-concerns.md) - [@oktaysenkan](https://github.com/oktaysenkan)
+
+### [**CSS**](css)
+
+- [Sass Rehberi](css/sass/sass-rehberi.md) - [@dferhat](https://github.com/dferhat)
+
+### [**Java**](java)
+- [Argüman aktarmayı anlamak](java/arguman-aktarmayi-anlamak/arguman-aktarmayi-anlamak.md) - [@enesusta](https://github.com/enesusta)
+- [Deadlock](java/deadlock/deadlock.md) - [@enesusta](https://github.com/enesusta)
+- [Özetleme Fonksiyonları](java/ozetleme-fonksiyonlari/ozetleme-fonksiyonlari.md) - [@furkankahvecii](https://github.com/furkankahvecii)
+
+
+### [**JavaScript**](javascript)
+
+- [JavaScript ES6 - Semboller](javascript/es6-semboller/es6-semboller.md) - [@selmansamet](https://github.com/selmansamet)
+
+### [**PHP**](php)
+
+- [Birçok şey öğrendim ama web sitesi oluşturamıyorum kafam çok karışık!](php/bilgim-var-proje-olustururken-kafam-karisiyor/bilgim-var-proje-olustururken-kafam-karisiyor.md) - [@hurata](https://github.com/hurata)
+
+### [**GIT**](git)
+
+- [git mantığı](git/git-mantigi/git-mantigi.md) - (geliştiriliyor)
+
+### [***Software-Testing***](software-testing)
+
+- [Unit Test](software-testing/unit-test/unit-test.md) - [@serkanerip](https://github.com/serkanerip)
+
+

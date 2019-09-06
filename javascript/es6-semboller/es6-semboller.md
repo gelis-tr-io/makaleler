@@ -45,7 +45,7 @@ var obj = {
   5: "merhaba",
   5.5: "merhaba"
 }
-Objectt.keys(obj) // ["3", "[object Object]", "5.5"]
+Object.keys(obj) // ["3", "[object Object]", "5.5"]
 ```
 
 Dolayısıyla objelerin nitelik olarak sadece *String* tipini kabul ettiğini anlamış olduk. String dışında yeni ilkel tipimiz Symbol tipini de obje niteliklerinde kullanabiliyoruz.
@@ -224,7 +224,7 @@ Bir dizinin `concat` işlevine karşı davranışını belirler. Eğer `true` ol
 ```javascript
 var arr = [1, 2, 3];
 arr[Symbol.isConcatSpreadable] = false;
-arr.concat([4, 5, 6]); // [1, 2, 3, [4, 5, 6]];
+arr.concat([4, 5, 6]); // [[1, 2, 3], 4, 5, 6];
 ```
 
 ### Symbol.toPrimitive
