@@ -149,3 +149,59 @@ Devre dışı bırakır
     System.out.println("hello");
   }
 ```
+
+# Hamcrest
+
+Birçok dildeki test sınıfları içindeki metotlara yardımcı olarak daha okunabilir hallerini yazabilmemize yardım eder.
+
+- http://hamcrest.org/
+
+Bir eşleştirme,karşılaştırma kütüphanesidir. 
+
+Hamcrest kütüphane olarak projenize eklenip kullanabiliriz. Test metotlarımızı yazarken sadece Hamcrest e ait olan 
+metotları kullarak yazabiliriz ya da JUnit ile birlikte harmanlayarak kullanabiliriz.
+
+Örneğin
+
+Elimizdeki liste üzerinde işlemler yaparken,
+
+Assert.assertThat() ile JUnit ten , CoreMatchers.hasItem() ile Hamcrest ten yararlanabiliriz.
+
+```java
+@Test
+public void testNumber() {
+  List<Integer> list = new ArrayList<>();
+  list.add(1);
+  list.add(2);
+
+  list.forEach(item -> System.out.println(item.intValue()));
+
+  Assert.assertThat(list, CoreMatchers.hasItem(1));
+  Assert.assertThat(list, CoreMatchers.hasItem(2));
+}
+@Test
+public void testNumberString() {
+  List<String> list = new ArrayList<>();
+  list.add("bir");
+  list.add("iki");
+
+  list.forEach(item -> System.out.println(item));
+
+  Assert.assertThat(list.get(0), CoreMatchers.startsWith("b"));
+  Assert.assertThat(list.get(1), CoreMatchers.is("iki"));
+  Assert.assertThat(list.get(1), CoreMatchers.containsString("k"));
+}
+
+```
+
+Kullanılması çok tercih edilen metotlara bakalım
+
+```java
+ equalTo()     -->  Eşitlik kontrolü
+ containsString() --> Beklenen değer içinde istenilen değer var mı kontrolü.
+ anyOf()       --> or durumudur. içindeki parametrelerin herhangi birinin doğruluğunda doğru sonuç verir.
+ allOf()       --> and durumur. içindeki parameterlerinin hepsinin doğru olmasını bekler.
+ either().or() --> bu veya bu karşılaştırması için kullanılır.
+ hasItem()     --> liste karşılaştırılmalarında içerisinde bir elemanın olup olmadığı kontrolünü yapar
+
+```
