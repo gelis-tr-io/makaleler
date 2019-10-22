@@ -3,8 +3,8 @@
 #### İçindekiler
 
 1. [Referans ve değer tipi arasındaki temel farkı anlamak](#referans-ve-değer-tipi-arasındaki-temel-farkı-anlamak)
-   - [Değer tipindeki bir değişken nasıl bir davranış sergiler?](#değer-tipindeki-bir-değişken-nasıl-bir-davranış-sergiler?)
-   - [Referans tipindeki bir değişken nasıl bir davranış sergiler?](#referans-tipindeki-bir-değişken-nasıl-bir-davranış-sergiler?)
+   - [Değer tipindeki bir değişken nasıl bir davranış sergiler?](#değer-tipindeki-bir-değişken-nasıl-bir-davranış-sergiler)
+   - [Referans tipindeki bir değişken nasıl bir davranış sergiler?](#referans-tipindeki-bir-değişken-nasıl-bir-davranış-sergiler)
 2. [Referans ve değer tiplerinin stack ve heap içerisinde saklanması](#referans-ve-değer-tiplerinin-stack-ve-heap-içerisinde-saklanması)
    - [Örnek 1](#örnek-1)
    - [Örnek 2](#örnek-2)
@@ -24,9 +24,9 @@
    - [Örnek 16](#örnek-16)
    - [Örnek 17](#örnek-17)
    - [Örnek 18](#örnek-18)
-3. [string referans tipi mi değer tipi mi?](#string-referans-tipi-mi-değer-tipi-mi?)
-   - [Neden referans tipi gibi değil de değer tipi gibi davranır?](#Neden-referans-tipi-gibi-değil-de-değer-tipi-gibi-davranır?)
-4. [Stack heap e göre neden daha hızlı?](#stack-heap-e-göre-neden-daha-hızlı?)
+3. [string referans tipi mi değer tipi mi?](#string-referans-tipi-mi-değer-tipi-mi)
+   - [Neden referans tipi gibi değil de değer tipi gibi davranır?](#Neden-referans-tipi-gibi-değil-de-değer-tipi-gibi-davranır)
+4. [Stack heap e göre neden daha hızlı?](#stack-heap-e-göre-neden-daha-hızlı)
 5. [Kullanılan Kaynaklar](#kullanılan-kaynaklar)
 6. [Yanıtlanması gereken sorular](#yanıtlanması-gereken-sorular)
 
