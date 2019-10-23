@@ -1,6 +1,6 @@
 # Makaleler
 
-Teorik ve pratik öğretiler içeren makaleleri bulabileceğiniz repository. Sizler de makalelerinizi burada paylaşabilir ve kolektif bir şekilde makalelerinizin gelişmesine ve daha çok insana ve size yardımcı olmasını sağlayabilirsiniz. 
+Teorik ve pratik öğretiler içeren makaleleri bulabileceğiniz repository. Sizler de makalelerinizi burada paylaşabilir ve kolektif bir şekilde makalelerinizin gelişmesine ve daha çok insana ve size yardımcı olmasını sağlayabilirsiniz.
 
 Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerekenler.md) okumayı lütfen unutmayın.
 
@@ -13,11 +13,11 @@ Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerek
 - [Sass Rehberi](css/sass/sass-rehberi.md) - [@dferhat](https://github.com/dferhat)
 
 ### [**Java**](java)
+
 - [Argüman aktarmayı anlamak](java/arguman-aktarmayi-anlamak/arguman-aktarmayi-anlamak.md) - [@enesusta](https://github.com/enesusta)
 - [Deadlock](java/deadlock/deadlock.md) - [@enesusta](https://github.com/enesusta)
 - [Özetleme Fonksiyonları](java/ozetleme-fonksiyonlari/ozetleme-fonksiyonlari.md) - [@furkankahvecii](https://github.com/furkankahvecii)
 - [Java Dilinde Test Yazmak](java/java-dilinde-test-yazmak/java-dilinde-test-yazmak.md) - [@keramiozsoy](https://github.com/keramiozsoy)
-
 
 ### [**JavaScript**](javascript)
 
@@ -31,8 +31,10 @@ Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerek
 
 - [git mantığı](git/git-mantigi/git-mantigi.md) - (geliştiriliyor)
 
-### [***Software-Testing***](software-testing)
+### [**_Software-Testing_**](software-testing)
 
 - [Unit Test](software-testing/unit-test/unit-test.md) - [@serkanerip](https://github.com/serkanerip)
 
+### [**C#**](C#)
 
+- [Referans ve Değer Tipleri](csharp/value-type-and-reference-type/value-type-and-reference-type.md) - [cihangll](https://github.com/cihangll)
