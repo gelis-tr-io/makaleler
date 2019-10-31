@@ -37,4 +37,5 @@ Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerek
 
 ### [**C#**](C#)
 
-- [Referans ve Değer Tipleri](csharp/value-type-and-reference-type/value-type-and-reference-type.md) - [cihangll](https://github.com/cihangll)
+- [Referans ve Değer Tipleri](csharp/value-type-and-reference-type/value-type-and-reference-type.md) - [@cihangll](https://github.com/cihangll)
+- [Nesneler Arasında Eşitlik](csharp/nesneler-arasinda-esitlik/nesneler-arasinda-esitlik.md) - [@cihangll](https://github.com/cihangll)
