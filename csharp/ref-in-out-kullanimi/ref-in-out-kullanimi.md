@@ -2,21 +2,21 @@
 
 #### İçindekiler
 
-- [### Ref, in, out ihtiyacı](#)
-- [Metot davranışlarını anlamak](#)
-  - [Parametre olarak değer tipinin gönderilmesi](#)
-  - [Parametre olarak referans tipinin gönderilmesi](#)
-- [Ref anahtar sözcüğü kullanımı](#)
-  - [Değer tiplerinde ref anahtar sözcüğü](#)
-  - [Referans tiplerinde ref anahtar sözcüğü](#)
-- [In anahtar sözcüğü kullanımı](#)
-  - [Değer tiplerinde in anahtar sözcüğü](#)
-  - [Struct değer tipinde in anahtar sözcüğü](#)
-  - [Referans tiplerinde in anahtar sözcüğü](#)
-- [Out anahtar sözcüğü kullanımı](#)
-  - [Değer tiplerinde out anahtar sözcüğü](#)
-  - [Referans tiplerinde out anahtar sözcüğü](#)
-- [Kullanılan kaynaklar](#)
+- [Ref, in, out ihtiyacı](#ref-in-out-ihtiyacı)
+- [Metot davranışlarını anlamak](#metot-davranışlarını-anlamak)
+  - [Parametre olarak değer tipinin gönderilmesi](#parametre-olarak-değer-tipinin-gönderilmesi)
+  - [Parametre olarak referans tipinin gönderilmesi](#parametre-olarak-referans-tipinin-gönderilmesi)
+- [Ref anahtar sözcüğü kullanımı](#ref-anahtar-sözcüğü-kullanımı)
+  - [Değer tiplerinde ref anahtar sözcüğü](#değer-tiplerinde-ref-anahtar-sözcüğü)
+  - [Referans tiplerinde ref anahtar sözcüğü](#referans-tiplerinde-ref-anahtar-sözcüğü)
+- [In anahtar sözcüğü kullanımı](#in-anahtar-sözcüğü-kullanımı)
+  - [Değer tiplerinde in anahtar sözcüğü](#değer-tiplerinde-in-anahtar-sözcüğü)
+  - [Struct değer tipinde in anahtar sözcüğü](#struct-değer-tipinde-in-anahtar-sözcüğü)
+  - [Referans tiplerinde in anahtar sözcüğü](#referans-tiplerinde-in-anahtar-sözcüğü)
+- [Out anahtar sözcüğü kullanımı](#out-anahtar-sözcüğü-kullanımı)
+  - [Değer tiplerinde out anahtar sözcüğü](#değer-tiplerinde-out-anahtar-sözcüğü)
+  - [Referans tiplerinde out anahtar sözcüğü](#referans-tiplerinde-out-anahtar-sözcüğü)
+- [Kullanılan kaynaklar](#kullanılan-kaynaklar)
 
 ### Ref, in, out ihtiyacı
 
