@@ -20,7 +20,7 @@
 
 ### Ref, in, out ihtiyacı
 
-Kodlama yaparken sıklıkla metot kullanıyoruz. Çoğunlukla da parametreli metotlar ile işlem yapıyoruz. Peki parametre alan gönderilen nesnelerin metot içerisinde değişmeyeceğinin garantisi var mı?
+Kodlama yaparken sıklıkla metot kullanıyoruz. Çoğunlukla da parametreli metotlar ile işlem yapıyoruz. Peki parametre olarak gönderilen nesnelerin metot içerisinde değişmeyeceğinin garantisi var mı?
 
 Örneğin çok sayıda kayıt bulunan bir liste ile çalıştığımızı hayal edelim. `MethodExample()` adında nasıl çalıştığını bilmediğimiz bir metot olsun.
 
@@ -533,7 +533,7 @@ Console.WriteLine(person);
 
 Uzun bir yazı oldu. Umarım faydalı bir içerik olmuştur.Hatalı gördüğünüz, yanlış olduğunu düşündüğünüz ve eklemek istediğiniz kısımlar için pull request yapabilirsiniz. Bu sayede daha güzel bir içerik oluşmuş olur.
 
-Herkes iyi çalışmalar.
+Herkese iyi çalışmalar.
 
 ### Kullanılan kaynaklar
 
