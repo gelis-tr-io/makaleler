@@ -1,6 +1,6 @@
 # Birçok şey öğrendim ama web sitesi oluşturamıyorum kafam çok karışık!
 
-Bu ifade şuanda olduğun durumu özetliyorsa muhtemel sıkıntın belirli bir dosya düzenine sahip olmaman veya bir yazılımı oluşturacak dosya düzenini kafanda kurgulayamamandan kaynaklanıyor olabilir. Zamanında benimde yaşadığım bu durumu çevremdeki bir kaç arkadaşımda da gözlemlemiştim. Genel olarak tek sayfalı yapılar oluşturabiliyor ama mesele birden fazla sayfanın birbirleriyle olan ilişkisine gelince insanın kafası karışabiliyor böyle bi durumda birşeyleri yavaş yavaş öğrenmene rağmen programlama olayı eziyet haline gelebilir.
+Bu ifade şu anda olduğun durumu özetliyorsa muhtemel sıkıntın belirli bir dosya düzenine sahip olmaman veya bir yazılımı oluşturacak dosya düzenini kafanda kurgulayamamandan kaynaklanıyor olabilir. Zamanında benim de yaşadığım bu durumu çevremdeki birkaç arkadaşımda da gözlemlemiştim. Genel olarak tek sayfalı yapılar oluşturabiliyor ama mesele birden fazla sayfanın birbirleriyle olan ilişkisine gelince insanın kafası karışabiliyor böyle bi durumda bir şeyleri yavaş yavaş öğrenmene rağmen programlama olayı eziyet haline gelebilir.
 
 Şimdi göstereceğim dosya yapısı oldukça basit. Küçük ve orta ölçekli projeler için biçilmiş kaftan biraz revize edilerek büyük ölçekli projelerde de kullanılabilir güzel bir yapı. Seveceksiniz...
 
@@ -24,7 +24,7 @@ Bu ifade şuanda olduğun durumu özetliyorsa muhtemel sıkıntın belirli bir d
       - header.php
       - footer.php
     
-  5. index.php / Ana dizinde olmalı herşeyin döndüğü sayfa olacak.
+  5. index.php / Ana dizinde olmalı her şeyin döndüğü sayfa olacak.
   
   6. .htaccess / Yönlendirmelerimizi sağlayacak 
   
@@ -43,7 +43,7 @@ Genel  Görünüm:
  
  ## Bu sistem nasıl çalışır?
  
-  Aslında herşey ana dizindeki index dosyamızda kullanıcıya döndürülüyor. Bu indexte işlemler şu şekilde:
+  Aslında her şey ana dizindeki index dosyamızda kullanıcıya döndürülüyor. Bu indexte işlemler şu şekilde:
  ```php
  <?php
 require 'conf/conf_main.php'; // Veritabanı bağlantılarımızın ve proje dahilinde kullanılabilecek fonksiyonları barındıran dosyamızı çektik bu sayede her yerde tekrar tekrar bağlantı kurmamıza gerek yok
@@ -61,7 +61,7 @@ if(isset($_GET['__path'])){ // Path kontrolü proje yolundan sonra yol belirlenm
 }
 ```
 
-Ve tabi ki .htaccess olmazsa olmaz. Bu gördüğünüz kodda '__path'in ne olduğunu tanımlıyoruz aslında. index.php'ye bağlı get ile gönderilen değerler olarak görüyor __path'
+Ve tabii ki .htaccess olmazsa olmaz. Bu gördüğünüz kodda '__path'in ne olduğunu tanımlıyoruz aslında. index.php'ye bağlı get ile gönderilen değerler olarak görüyor __path'
 
 ```.htaccess
   RewriteEngine On
@@ -70,7 +70,7 @@ Ve tabi ki .htaccess olmazsa olmaz. Bu gördüğünüz kodda '__path'in ne oldu�
 ```
 
   ## Adım adım bir kayıt ol sayfası oluşturalım.
-  Dosya yapımız hazır, herşey olması gerektiği yerde ve yazmaya hazırız.
+  Dosya yapımız hazır, her şey olması gerektiği yerde ve yazmaya hazırız.
   
   ### conf klasöründeki conf_main.php'yi hazırlayalım. 
   ```php
@@ -151,7 +151,7 @@ function kisaltici($icerik,$karakter) {
    - Ardından kullanıcılara formu göstermek için templates içine kayitol.php adında bir dosya oluşturdum ve html vs. şeyleri oraya yazdım
    - Ardından controller klasörümün içine kayıtol.php oluşturarak php ile alakalı kontrollerimi ve veritabanı işlemlerimi yaptım tabii bu dosyamı require ile templates/kayıtol.php'nin içine çektim.
  
- Bu şekilde  karmaşıklığı ortadan kaldırdım, bazı noktalarda kodumu tek sefer yazdım ve artık yeni sayfa oluşturmak istediğimde controller ve templates klasörlerime ilgili sayfanın dosyalarını oluşturmam yeterli olacak.
+ Bu şekilde karmaşıklığı ortadan kaldırdım, bazı noktalarda kodumu tek sefer yazdım ve artık yeni sayfa oluşturmak istediğimde controller ve templates klasörlerime ilgili sayfanın dosyalarını oluşturmam yeterli olacak.
  
  https://projeyolu/kayıtol dediğimde artık karşıma hazırladığım kayıtol sayfası çıkacak 
  
@@ -167,5 +167,3 @@ function kisaltici($icerik,$karakter) {
 6. Üçüncü tekrardan sonra hala anlamadıysan problem benden kaynaklanıyordur, lütfen benimle iletişime geç.
    
 Faydalı olması ümidiyle...
- 
-    
