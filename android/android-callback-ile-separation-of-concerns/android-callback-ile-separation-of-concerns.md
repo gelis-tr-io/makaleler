@@ -1,5 +1,5 @@
 
-# Callback kullanmak suretiyle Android kodumuzda Sepration of Concern Saglama
+# Callback kullanmak suretiyle Android kodumuzda Separation of Concern Sağlama
 Android projemizde ```Separation of Concerns``` uygulamak yani birbiriyle bağlantılı olmayan katmanları ayırmak için callback kullanabiliriz.
 
 ### Interface tanımlama
