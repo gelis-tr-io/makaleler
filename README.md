@@ -41,3 +41,8 @@ Makalelerinizi paylaşırken [dikkat edilmesi gerekenleri](dikkat-edilmesi-gerek
 - [Nesneler Arasında Eşitlik](csharp/nesneler-arasinda-esitlik/nesneler-arasinda-esitlik.md) - [@cihangll](https://github.com/cihangll)
 - [Invariant, Covariant ve Contravariant Tipler](csharp/covariant-contravariant/covariant-contravariant.md) - [@cihangll](https://github.com/cihangll)
 - [Ref, In ve Out Anahtar Sözcüklerinin Kullanımı](csharp/ref-in-out-kullanimi/ref-in-out-kullanimi.md) - [@cihangll](https://github.com/cihangll)
+- [AspNetCore Uygulamasında Loglama, Serilog, Seq, Docker ve Github Action Kullanımı](csharp/serilog-seq-docker-githubaction/serilog-seq-docker-githubaction.md) - [@cihangll](https://github.com/cihangll)
+  - [NetCore Uygulamasında Default Tanımlı Loglama Kullanımı](csharp/serilog-seq-docker-githubaction/serilog-seq-docker-githubaction.md#default-tanımlı-loglama)
+  - [NetCore Uygulamasında Serilog Kullanımı](csharp/serilog-seq-docker-githubaction/serilog-seq-docker-githubaction.md#serilog)
+  - [NetCore Uygulamasını Dockerize Etme](csharp/serilog-seq-docker-githubaction/serilog-seq-docker-githubaction.md#demo-uygulamasını-dockerize-etme)
+  - [Github Action ile Docker Imajını Docker Hub'a Göndermek](csharp/serilog-seq-docker-githubaction/serilog-seq-docker-githubaction.md#github-action-ile-uygulama-imajını-docker-huba-göndermek)
