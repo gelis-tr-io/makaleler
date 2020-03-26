@@ -19,7 +19,7 @@ Git işleyiş (akış) mantığını kavrama rehberi.
 
 ## Git Nedir? 
 
-Git, versiyon konrtol sistemidir. Kullanımı ücretsiz ve açık kaynak bir uygulamadır. Bir çok kullanıcı ve firma tarafından tercih edilir. Meraklısı için [resmi sayfası](https://git-scm.com/about).
+Git, versiyon kontrol sistemidir. Kullanımı ücretsiz ve açık kaynak bir uygulamadır. Bir çok kullanıcı ve firma tarafından tercih edilir. Meraklısı için [resmi sayfası](https://git-scm.com/about).
 
 ### Neleri Kolaylaştırır?
 - Proje klasörü üzerinde yapılan değişiklikleri adım adım kaydetmeyi sağlar.
