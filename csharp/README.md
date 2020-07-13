@@ -9,3 +9,4 @@
   - [NetCore Uygulamasında Serilog Kullanımı](serilog-seq-docker-githubaction/serilog-seq-docker-githubaction.md#serilog)
   - [NetCore Uygulamasını Dockerize Etme](serilog-seq-docker-githubaction/serilog-seq-docker-githubaction.md#demo-uygulamasını-dockerize-etme)
   - [Github Action ile Docker Imajını Docker Hub'a Göndermek](serilog-seq-docker-githubaction/serilog-seq-docker-githubaction.md#github-action-ile-uygulama-imajını-docker-huba-göndermek)
+- [ASP.NET Core Projesine Swagger’ı Dahil Etmek](https://medium.com/kodcular/asp-net-core-projesine-swagger%C4%B1-dahil-etmek-f55e19aed32) - [@enginveske](https://medium.com/@enginveske)
